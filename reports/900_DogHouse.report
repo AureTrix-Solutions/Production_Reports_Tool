@@ -1,0 +1,1218 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =14633
+    DatasheetFontHeight =11
+    ItemSuffix =90
+    RecSrcDt = Begin
+        0x11f28f83cf85e640
+    End
+    RecordSource ="900_DogHouse"
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin OptionGroup
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            SizeMode =3
+            BorderLineStyle =0
+            LabelX =-1800
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            GridlineColor =-2147483609
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+        End
+        Begin Chart
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin ToggleButton
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            UseTheme =1
+            Shape =2
+            Bevel =1
+            BackThemeColorIndex =4
+            BackTint =60.0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =1
+        End
+        Begin Tab
+            TextFontFamily =18
+            FontSize =11
+            FontName ="Cambria"
+            GridlineColor =-2147483609
+            ThemeFontIndex =0
+            UseTheme =1
+            Shape =3
+            BackThemeColorIndex =1
+            BackShade =85.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =2
+            BorderTint =60.0
+            HoverThemeColorIndex =1
+            PressedThemeColorIndex =1
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Page
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            GridlineColor =-2147483609
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineColor =-2147483609
+        End
+        Begin WebBrowser
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin NavigationControl
+            BorderWidth =1
+            BorderLineStyle =0
+            ForeColor =4138256
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            GridlineColor =-2147483609
+        End
+        Begin NavigationButton
+            GridlineColor =-2147483609
+            HoverThemeColorIndex =2
+            HoverTint =20.0
+            PressedThemeColorIndex =2
+            PressedTint =60.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            BackThemeColorIndex =1
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            FontName ="Calibri"
+            FontWeight =400
+            FontSize =11
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ModernChart
+            OldBorderStyle =0
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            ChartTitle ="Chart Title"
+
+
+
+        End
+        Begin Edge
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="wc_cd"
+        End
+        Begin BreakLevel
+            SortOrder = NotDefault
+            ControlSource ="Maf_age"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =772
+            Name ="ReportHeader"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =300
+                    Top =60
+                    Width =5776
+                    Height =690
+                    FontSize =18
+                    Name ="Auto_Header0"
+                    Caption ="900_DogHouse"
+                    FontName ="Cambria"
+                    GroupTable =2
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =300
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6076
+                    LayoutCachedHeight =750
+                    RowEnd =1
+                    LayoutGroup =2
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =6135
+                    Top =60
+                    Width =4320
+                    Height =315
+                    Name ="Auto_Date"
+                    ControlSource ="=Date()"
+                    Format ="Long Date"
+                    GroupTable =2
+
+                    LayoutCachedLeft =6135
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =10455
+                    LayoutCachedHeight =375
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OldBorderStyle =0
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =6135
+                    Top =435
+                    Width =4320
+                    Height =315
+                    TabIndex =1
+                    Name ="Auto_Time"
+                    ControlSource ="=Time()"
+                    Format ="Long Time"
+                    GroupTable =2
+
+                    LayoutCachedLeft =6135
+                    LayoutCachedTop =435
+                    LayoutCachedWidth =10455
+                    LayoutCachedHeight =750
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    GroupTable =2
+                End
+            End
+        End
+        Begin PageHeader
+            Height =449
+            Name ="PageHeaderSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    Left =1245
+                    Top =60
+                    Width =1080
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label1"
+                    Caption ="fgc"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =1245
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2325
+                    LayoutCachedHeight =419
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =2385
+                    Top =60
+                    Width =1020
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label2"
+                    Caption ="tec"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =2385
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3405
+                    LayoutCachedHeight =419
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =45
+                    Top =60
+                    Width =1140
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label3"
+                    Caption ="wc_cd"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =45
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1185
+                    LayoutCachedHeight =419
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =3465
+                    Top =60
+                    Width =1260
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label4"
+                    Caption ="mcn"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =3465
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =4725
+                    LayoutCachedHeight =419
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =4785
+                    Top =60
+                    Width =1680
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label5"
+                    Caption ="jcn"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =4785
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6465
+                    LayoutCachedHeight =419
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =6525
+                    Top =60
+                    Width =1635
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label7"
+                    Caption ="e_part_no"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =6525
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =8160
+                    LayoutCachedHeight =419
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =8220
+                    Top =60
+                    Width =2025
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label9"
+                    Caption ="se_part_no"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =8220
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =10245
+                    LayoutCachedHeight =419
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =10305
+                    Top =60
+                    Width =2025
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label11"
+                    Caption ="sys_rsn"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =10305
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =12330
+                    LayoutCachedHeight =419
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =12390
+                    Top =60
+                    Width =1065
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label13"
+                    Caption ="status"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =12390
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =13455
+                    LayoutCachedHeight =419
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    Left =13515
+                    Top =60
+                    Width =1080
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label14"
+                    Caption ="maf age"
+                    GroupTable =1
+                    GridlineStyleBottom =1
+                    LayoutCachedLeft =13515
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =14595
+                    LayoutCachedHeight =419
+                    ColumnStart =9
+                    ColumnEnd =9
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =420
+            Name ="GroupHeader0"
+            AutoHeight =255
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin EmptyCell
+                    Left =1245
+                    Top =30
+                    Width =1080
+                    Height =360
+                    Name ="EmptyCell79"
+                    GroupTable =1
+                    LayoutCachedLeft =1245
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =2325
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =2385
+                    Top =30
+                    Width =1020
+                    Height =360
+                    Name ="EmptyCell80"
+                    GroupTable =1
+                    LayoutCachedLeft =2385
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =3405
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =3465
+                    Top =30
+                    Width =1260
+                    Height =360
+                    Name ="EmptyCell82"
+                    GroupTable =1
+                    LayoutCachedLeft =3465
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =4725
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =4785
+                    Top =30
+                    Width =1680
+                    Height =360
+                    Name ="EmptyCell83"
+                    GroupTable =1
+                    LayoutCachedLeft =4785
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =6465
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =6525
+                    Top =30
+                    Width =1635
+                    Height =360
+                    Name ="EmptyCell84"
+                    GroupTable =1
+                    LayoutCachedLeft =6525
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8160
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =8220
+                    Top =30
+                    Width =2025
+                    Height =360
+                    Name ="EmptyCell85"
+                    GroupTable =1
+                    LayoutCachedLeft =8220
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10245
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =10305
+                    Top =30
+                    Width =2025
+                    Height =360
+                    Name ="EmptyCell86"
+                    GroupTable =1
+                    LayoutCachedLeft =10305
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12330
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =12390
+                    Top =30
+                    Width =1065
+                    Height =360
+                    Name ="EmptyCell87"
+                    GroupTable =1
+                    LayoutCachedLeft =12390
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =13455
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =13515
+                    Top =30
+                    Width =1080
+                    Height =360
+                    Name ="EmptyCell88"
+                    GroupTable =1
+                    LayoutCachedLeft =13515
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =14595
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =9
+                    ColumnEnd =9
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    HideDuplicates = NotDefault
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =45
+                    Top =30
+                    Width =1140
+                    Height =360
+                    ColumnWidth =990
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Group Of wc_cd"
+                    ControlSource ="wc_cd"
+                    Format ="@"
+                    EventProcPrefix ="Group_Of_wc_cd"
+                    GroupTable =1
+
+                    LayoutCachedLeft =45
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =1185
+                    LayoutCachedHeight =390
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =420
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin EmptyCell
+                    Left =45
+                    Top =30
+                    Width =1140
+                    Height =360
+                    Name ="EmptyCell89"
+                    GroupTable =1
+                    LayoutCachedLeft =45
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =1185
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =1245
+                    Top =30
+                    Width =1080
+                    Height =360
+                    ColumnWidth =690
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="fgc"
+                    ControlSource ="fgc"
+                    Format ="@"
+                    GroupTable =1
+
+                    LayoutCachedLeft =1245
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =2325
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =2385
+                    Top =30
+                    Width =1020
+                    Height =360
+                    ColumnWidth =705
+                    TabIndex =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="tec"
+                    ControlSource ="tec"
+                    GroupTable =1
+
+                    LayoutCachedLeft =2385
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =3405
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =3465
+                    Top =30
+                    Width =1260
+                    Height =360
+                    ColumnWidth =1065
+                    TabIndex =2
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="mcn"
+                    ControlSource ="mcn"
+                    Format ="@"
+                    GroupTable =1
+
+                    LayoutCachedLeft =3465
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =4725
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =4785
+                    Top =30
+                    Width =1680
+                    Height =360
+                    ColumnWidth =1260
+                    TabIndex =3
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="jcn"
+                    ControlSource ="jcn"
+                    Format ="@"
+                    GroupTable =1
+
+                    LayoutCachedLeft =4785
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =6465
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =6525
+                    Top =30
+                    Width =1635
+                    Height =360
+                    ColumnWidth =1365
+                    TabIndex =4
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="e_part_no"
+                    ControlSource ="e_part_no"
+                    Format ="@"
+                    GroupTable =1
+
+                    LayoutCachedLeft =6525
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8160
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =8220
+                    Top =30
+                    Width =2025
+                    Height =360
+                    ColumnWidth =2310
+                    TabIndex =5
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="se_part_no"
+                    ControlSource ="se_part_no"
+                    GroupTable =1
+
+                    LayoutCachedLeft =8220
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10245
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =10305
+                    Top =30
+                    Width =2025
+                    Height =360
+                    ColumnWidth =2730
+                    TabIndex =6
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="sys_rsn"
+                    ControlSource ="sys_rsn"
+                    GroupTable =1
+
+                    LayoutCachedLeft =10305
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12330
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =12390
+                    Top =30
+                    Width =1065
+                    Height =360
+                    ColumnWidth =1755
+                    TabIndex =7
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="current_status"
+                    ControlSource ="current_status"
+                    Format ="@"
+                    GroupTable =1
+
+                    LayoutCachedLeft =12390
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =13455
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =13515
+                    Top =30
+                    Width =1080
+                    Height =360
+                    ColumnWidth =2085
+                    TabIndex =8
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="current_status_date"
+                    ControlSource ="Maf_age"
+                    GroupTable =1
+                    ShowDatePicker =1
+
+                    LayoutCachedLeft =13515
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =14595
+                    LayoutCachedHeight =390
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =9
+                    ColumnEnd =9
+                    LayoutGroup =1
+                    GridlineThemeColorIndex =1
+                    GridlineShade =65.0
+                    GroupTable =1
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="PageFooterSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =0
+            Name ="ReportFooter"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

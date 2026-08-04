@@ -1,0 +1,122 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Cost_savings_work"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "[Copy Of Requisitions_Raw_Data].cage": {
+        "ColumnOrder": 12,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].cog": {
+        "ColumnOrder": 13,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].cur_mcn": {
+        "ColumnOrder": 14,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].cur_niin": {
+        "ColumnOrder": 15,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].ddsn": {
+        "ColumnOrder": 16,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].ddsn_suf": {
+        "ColumnOrder": 17,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].lsc": {
+        "ColumnOrder": 18,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].ord_qty": {
+        "ColumnOrder": 19,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].part_no": {
+        "ColumnOrder": 20,
+        "AggregateType": -1
+      },
+      "[Copy Of Requisitions_Raw_Data].rep_mcn": {
+        "ColumnOrder": 21,
+        "AggregateType": -1
+      },
+      "combined.ty_maf_cd": {
+        "ColumnOrder": 10,
+        "AggregateType": -1
+      },
+      "mom_act_take_cd": {
+        "ColumnOrder": 9,
+        "AggregateType": -1
+      },
+      "mom_fgc": {
+        "ColumnOrder": 1,
+        "AggregateType": -1
+      },
+      "mom_maf_status": {
+        "ColumnOrder": 7,
+        "AggregateType": -1
+      },
+      "mom_mcn": {
+        "ColumnOrder": 5,
+        "AggregateType": -1
+      },
+      "mom_niin": {
+        "ColumnOrder": 3,
+        "AggregateType": -1
+      },
+      "mom_repair_cost": {
+        "ColumnOrder": 11,
+        "ColumnWidth": 2040,
+        "AggregateType": -1
+      },
+      "mom_serno": {
+        "ColumnOrder": 4,
+        "AggregateType": -1
+      },
+      "mom_status_date": {
+        "ColumnOrder": 8,
+        "AggregateType": -1
+      },
+      "mom_tec": {
+        "ColumnOrder": 2,
+        "AggregateType": -1
+      },
+      "repair_part_cost": {
+        "ColumnWidth": 1935,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 997,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1532,
+        "bottom": -1
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

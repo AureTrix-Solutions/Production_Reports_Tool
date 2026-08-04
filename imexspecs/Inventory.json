@@ -1,0 +1,326 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 2,
+    "DecimalPoint": ".",
+    "FieldSeparator": ",",
+    "FileType": 437,
+    "SpecName": "Inventory",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "",
+    "TimeDelim": ":",
+    "Columns": {
+      "acct_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 9
+      },
+      "awp_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 10,
+        "Width": 8
+      },
+      "cncl_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 18,
+        "Width": 9
+      },
+      "cosal_faq": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 27,
+        "Width": 10
+      },
+      "cosal_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 37,
+        "Width": 10
+      },
+      "depl_pkup_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 47,
+        "Width": 14
+      },
+      "difm_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 61,
+        "Width": 9
+      },
+      "dop_uic": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 70,
+        "Width": 8
+      },
+      "due_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 78,
+        "Width": 8
+      },
+      "ei_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 86,
+        "Width": 7
+      },
+      "eriou_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 93,
+        "Width": 10
+      },
+      "exrp_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 103,
+        "Width": 9
+      },
+      "fgc": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 203,
+        "Width": 5
+      },
+      "isser_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 112,
+        "Width": 10
+      },
+      "lis_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 122,
+        "Width": 8
+      },
+      "long_sup_ind": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 130,
+        "Width": 13
+      },
+      "lpurp_faq": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 143,
+        "Width": 10
+      },
+      "lpurp_pkup_oh": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 153,
+        "Width": 14
+      },
+      "match_set_ind": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 167,
+        "Width": 14
+      },
+      "mov_pri_dsg": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 181,
+        "Width": 12
+      },
+      "niin": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 193,
+        "Width": 10
+      },
+      "note_cd_1": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 208,
+        "Width": 10
+      },
+      "note_cd_2": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 218,
+        "Width": 10
+      },
+      "note_cd_3": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 228,
+        "Width": 10
+      },
+      "note_cd_4": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 238,
+        "Width": 10
+      },
+      "note_cd_5": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 248,
+        "Width": 10
+      },
+      "note_cd_6": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 258,
+        "Width": 10
+      },
+      "note_cd_7": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 268,
+        "Width": 10
+      },
+      "note_cd_8": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 278,
+        "Width": 10
+      },
+      "owe_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 288,
+        "Width": 8
+      },
+      "pool_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 296,
+        "Width": 8
+      },
+      "rfi_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 304,
+        "Width": 8
+      },
+      "so_iou_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 312,
+        "Width": 11
+      },
+      "ssp_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 323,
+        "Width": 8
+      },
+      "subcus_qty": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 331,
+        "Width": 11
+      },
+      "trnrd_tm": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 342,
+        "Width": 9
+      },
+      "uncd_note": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 351,
+        "Width": 14
+      },
+      "wpurp_faq": {
+        "Attributes": 0,
+        "DataType": 3,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 365,
+        "Width": 10
+      }
+    }
+  }
+}

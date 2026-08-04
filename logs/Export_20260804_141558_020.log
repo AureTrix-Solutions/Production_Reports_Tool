@@ -1,0 +1,808 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+Production Reports Tool.accdb
+VCS Version 5.0.1
+Export Format: 5.0.0
+Full Path: C:\Users\ricks\Desktop\Production Reports Tool.accdb
+Export Folder: C:\Users\ricks\Desktop\Production Reports Tool.accdb.src\
+8/4/2026 2:15:58 PM
+Performing Full Export
+-------------------------------------
+Scanning source files...
+No db connections found in this database.
+No vbe forms found in this database.
+No proj properties found in this database.
+No saved specs found in this database.
+No commandbars found in this database.
+No shared images found in this database.
+No macros found in this database.
+No table data found in this database.
+No table data macros found in this database.
+No hidden attributes found in this database.
+-------------------------------------
+Exporting project...            Production Reports Tool.accdb
+[1]
+-------------------------------------
+Exporting vb project...         Database1
+[1]
+-------------------------------------
+Exporting vbe references...     stdole
+[3]
+-------------------------------------
+Exporting modules...            allNalcomis
+  historicalNalcomis
+  API
+  Stand Alone Module
+  ak0ak7Nalcomis
+  activeNalcomis
+  modNalcomis
+  FormGenerator
+  FixCapsNumScroll
+  ADHOC Engine v3_1
+  FirstRun
+  DateModified
+[12]
+-------------------------------------
+Exporting themes...             Office Theme
+[1]
+-------------------------------------
+Exporting db properties...      Database Properties (DAO)
+[54]
+-------------------------------------
+Exporting imex specs...         4hist
+  failed
+  Hof_niin
+  Inventory
+  mafnotes
+  reqs1
+[6]
+-------------------------------------
+Exporting tables...             Active_AdHocs
+    Sanitized in 0.001 seconds.
+  Active_AdHocs (SQL)
+  ak0_ak7_bsr_adhocs
+    Sanitized in 0.001 seconds.
+  ak0_ak7_bsr_adhocs (SQL)
+  All_AdHocs
+    Sanitized in 0.001 seconds.
+  All_AdHocs (SQL)
+  Buno_list
+    Sanitized in 0.000 seconds.
+  Buno_list (SQL)
+  combined
+    Sanitized in 0.003 seconds.
+  combined (SQL)
+  ConfigTbl_ADHOCEngine
+    Sanitized in 0.001 seconds.
+  ConfigTbl_ADHOCEngine (SQL)
+  Growler_ddsn_list
+    Sanitized in 0.000 seconds.
+  Growler_ddsn_list (SQL)
+  Growler_ORG_list
+    Sanitized in 0.000 seconds.
+  Growler_ORG_list (SQL)
+  H60_ddsn_list
+    Sanitized in 0.000 seconds.
+  H60_ddsn_list (SQL)
+  H60_ORG_list
+    Sanitized in 0.000 seconds.
+  H60_ORG_list (SQL)
+  Historical_AdHocs
+    Sanitized in 0.001 seconds.
+  Historical_AdHocs (SQL)
+  Hof_niin
+    Sanitized in 0.001 seconds.
+  Hof_niin (SQL)
+  Inventory
+    Sanitized in 0.002 seconds.
+  Inventory (SQL)
+  Maf_Notes
+    Sanitized in 0.001 seconds.
+  Maf_Notes (SQL)
+  Main_org_list
+    Sanitized in 0.001 seconds.
+  Main_org_list (SQL)
+  p8_ddsn_list
+    Sanitized in 0.000 seconds.
+  p8_ddsn_list (SQL)
+  P8_ORG_list
+    Sanitized in 0.000 seconds.
+  P8_ORG_list (SQL)
+  pmi_ddsn_list
+    Sanitized in 0.000 seconds.
+  pmi_ddsn_list (SQL)
+  Project_code_table
+    Sanitized in 0.001 seconds.
+  Project_code_table (SQL)
+  Requisitions
+    Sanitized in 0.002 seconds.
+  Requisitions (SQL)
+  Tbl_SelectedADHOCs
+    Sanitized in 0.001 seconds.
+  Tbl_SelectedADHOCs (SQL)
+  tblAHTemplates
+    Sanitized in 0.001 seconds.
+  tblAHTemplates (SQL)
+  tblCsvFileNames
+    Sanitized in 0.000 seconds.
+  tblCsvFileNames (SQL)
+  tblFileLastModified
+    Sanitized in 0.001 seconds.
+  tblFileLastModified (SQL)
+[24]
+-------------------------------------
+Exporting queries...            400 DIFM
+  400 DIFM
+  400 PMS
+  400 PMS
+  400_D
+  400_D
+  400_DogHouse
+  400_DogHouse
+  500 BSR
+  500 BSR
+  500 BSY
+  500 BSY
+  500 DIFM
+  500 DIFM
+  500 PMS
+  500 PMS
+  500_600_AWP_SE_Discrepancy_mafs
+  500_600_AWP_SE_Discrepancy_mafs
+  500_600_BS
+  500_600_BS
+  500_600_BS_Crosstab
+  500_600_BS_Crosstab
+  500_600_DIFM_IW
+  500_600_DIFM_IW
+  500_600_DIFM_trimmed_notes
+  500_600_DIFM_trimmed_notes
+  500_600_DIFM_trimmed_parts
+  500_600_DIFM_trimmed_parts
+  500_600_DIFM_trimmed_support
+  500_600_DIFM_trimmed_support
+  500_600_NON-AWP_SE_Discrepancy_mafs
+  500_600_NON-AWP_SE_Discrepancy_mafs
+  500_600_other_mafs
+  500_600_other_mafs
+  500_600_pri_Report
+  500_600_pri_Report
+  500_600_Pri_Report_CrossTab
+  500_600_Pri_Report_CrossTab
+  500_600_Priority_List
+  500_600_Priority_List
+  500_D
+  500_D
+  500_DogHouse
+  500_DogHouse
+  600 BSR
+  600 BSR
+  600 BSY
+  600 BSY
+  600 DIFM
+  600 DIFM
+  600 PMS
+  600 PMS
+  600_D
+  600_D
+  600_DogHouse
+  600_DogHouse
+  700 BSR
+  700 BSR
+  700 BSY
+  700 BSY
+  700 DIFM
+  700 DIFM
+  700 PMS
+  700 PMS
+  700_D
+  700_D
+  700_DogHouse
+  700_DogHouse
+  800 BSR
+  800 BSR
+  800 BSY
+  800 BSY
+  800 DIFM
+  800 DIFM
+  800 PMS
+  800 PMS
+  800_D
+  800_D
+  800_DogHouse
+  800_DogHouse
+  900 BSR
+  900 BSR
+  900 BSY
+  900 BSY
+  900 DIFM
+  900 DIFM
+  900 PMS
+  900 PMS
+  900_D
+  900_D
+  900_DogHouse
+  900_DogHouse
+  AK0_AK7_BSR
+  AK0_AK7_BSR
+  BSR W/ DDSN
+  BSR W/ DDSN
+  Buffer_status
+  Buffer_status
+  BunoSernoQsrch
+  BunoSernoQsrch
+  combined Query1
+  combined Query1
+  contrl_mcn
+  contrl_mcn
+  contrl_mcn_trimmed
+  contrl_mcn_trimmed
+  Copy Of Requisitions_Raw_Data
+  Copy Of Requisitions_Raw_Data
+  cost_key
+  cost_key
+  cost_savings
+  cost_savings
+  Cost_savings_work
+  Cost_savings_work
+  CurStatusDateQsrch
+  CurStatusDateQsrch
+  DdsnQsrch
+  DdsnQsrch
+  DIFM_Reject
+  DIFM_Reject
+  DIFM_reject_raw
+  DIFM_reject_raw
+  DIFM_trimmed_notes
+  DIFM_trimmed_notes
+  EA-18G ddsn List
+  EA-18G ddsn List
+  EpartnoQsrch
+  EpartnoQsrch
+  ER W/SHELF STOCK
+  ER W/SHELF STOCK
+  EsernoQsrch
+  EsernoQsrch
+  Exrep
+  Exrep
+  fgc_bsr_work
+  fgc_bsr_work
+  FgcQsrch
+  FgcQsrch
+  Grouped_inventory
+  Grouped_inventory
+  Growler_ddsn_list_clean_up
+  Growler_ddsn_list_clean_up
+  Growler_MOC_MAFS
+  Growler_MOC_MAFS
+  H60_ddsn_list_clean_up
+  H60_ddsn_list_clean_up
+  H60_MOC_MAFS
+  H60_MOC_MAFS
+  InitiatedQsrch
+  InitiatedQsrch
+  maf_age_q
+  maf_age_q
+  Maf_Notes Query
+  Maf_Notes Query
+  Maf_Notes Query1
+  Maf_Notes Query1
+  Maf_Notes_Q
+  Maf_Notes_Q
+  Maf_notes_reject
+  Maf_notes_reject
+  Maf_notes_test
+  Maf_notes_test
+  MAF_With_Notes
+  MAF_With_Notes
+  McnQsrch
+  McnQsrch
+  MgmtcdQsrch
+  MgmtcdQsrch
+  MH60-S ddsn list
+  MH60-S ddsn list
+  MMCO BS
+  MMCO BS
+  moc_mafs
+  moc_mafs
+  moc_mafs_w_name
+  moc_mafs_w_name
+  NiinQsrch
+  NiinQsrch
+  OOR_Exrep
+  OOR_Exrep
+  Other_Exrep
+  Other_Exrep
+  P8_ddsn_list_clean_up
+  P8_ddsn_list_clean_up
+  P8_MOC_MAFS
+  P8_MOC_MAFS
+  P-8A ddsn list
+  P-8A ddsn list
+  PMI ddsn list
+  PMI ddsn list
+  PMI_Exrep
+  PMI_Exrep
+  pmi_mafs
+  pmi_mafs
+  pmi_mafs_w_name
+  pmi_mafs_w_name
+  ProjcdQsrch
+  ProjcdQsrch
+  Qry_ClearSelectedADHOCs
+  Qry_ClearSelectedADHOCs
+  Qry_SelectADHOCs
+  Qry_SelectADHOCs
+  Raw Data
+  Raw Data
+  Refer W/Stock
+  Refer W/Stock
+  Requisitions Query
+  Requisitions Query
+  Requisitions Query1
+  Requisitions Query1
+  Requisitions__trimmed
+  Requisitions__trimmed
+  Requisitions_Raw_Data
+  Requisitions_Raw_Data
+  Requisitions_Raw_Data_With_MOM_FGC
+  Requisitions_Raw_Data_With_MOM_FGC
+  Requisitions_Raw_test
+  Requisitions_Raw_test
+  SAAS_Exrep
+  SAAS_Exrep
+  SepartnoQsrch
+  SepartnoQsrch
+  TecQsrch
+  TecQsrch
+[112]
+-------------------------------------
+Exporting forms...              version
+    Sanitized in 0.002 seconds.
+  DIFM_trimmed_notes
+    Sanitized in 0.006 seconds.
+  900 BSR W/NOTES
+    Sanitized in 0.012 seconds.
+  400 DIFM W/NOTES
+    Sanitized in 0.012 seconds.
+  700 BSR W/NOTES
+    Sanitized in 0.012 seconds.
+  600 BSR W/NOTES
+    Sanitized in 0.012 seconds.
+  500 BSR W/NOTES
+    Sanitized in 0.012 seconds.
+  Priority_List_W/Mafs & Notes
+    Sanitized in 0.002 seconds.
+  800 BSR W/NOTES
+    Sanitized in 0.012 seconds.
+  600 DIFM W/NOTES
+    Sanitized in 0.011 seconds.
+  Raw Data W/NOTES
+    Sanitized in 0.012 seconds.
+  Requisitions
+    Sanitized in 0.010 seconds.
+  MmcoDailyFrm
+    Sanitized in 0.003 seconds.
+  BfferYellowFrm
+    Sanitized in 0.007 seconds.
+  ConfigFrm_SelectADHOCs
+    Sanitized in 0.004 seconds.
+  other_Exrep W/PARTS
+    Sanitized in 0.012 seconds.
+  pmi_Exrep W/PARTS
+    Sanitized in 0.012 seconds.
+  900 PMS W/PARTS
+    Sanitized in 0.011 seconds.
+  800 PMS W/PARTS
+    Sanitized in 0.011 seconds.
+  700 PMS W/PARTS
+    Sanitized in 0.011 seconds.
+  600 PMS W/PARTS
+    Sanitized in 0.011 seconds.
+  500 PMS W/PARTS
+    Sanitized in 0.012 seconds.
+  400 PMS W/PARTS
+    Sanitized in 0.012 seconds.
+  900 DIFM W/PARTS
+    Sanitized in 0.012 seconds.
+  800 DIFM W/PARTS
+    Sanitized in 0.011 seconds.
+  700 DIFM W/PARTS
+    Sanitized in 0.011 seconds.
+  500 BSY W/PARTS
+    Sanitized in 0.012 seconds.
+  700 BSY W/PARTS
+    Sanitized in 0.011 seconds.
+  900 BSY W/PARTS
+    Sanitized in 0.012 seconds.
+  saas_Exrep W/PARTS
+    Sanitized in 0.013 seconds.
+  oor_Exrep W/PARTS
+    Sanitized in 0.013 seconds.
+  Exrep W/PARTS
+    Sanitized in 0.013 seconds.
+  Raw Data W/PARTS
+    Sanitized in 0.012 seconds.
+  Growler_MOC_MAFS W/PARTS
+    Sanitized in 0.011 seconds.
+  P8_MOC_MAFS W/PARTS
+    Sanitized in 0.011 seconds.
+  H60_MOC_MAFS W/PARTS
+    Sanitized in 0.011 seconds.
+  PMI_MAFS W/PARTS
+    Sanitized in 0.011 seconds.
+  500 BSR W/PARTS
+    Sanitized in 0.012 seconds.
+  700 BSR W/PARTS
+    Sanitized in 0.012 seconds.
+  900 BSR W/PARTS
+    Sanitized in 0.012 seconds.
+  400 DIFM W/PARTS
+    Sanitized in 0.012 seconds.
+  500 DIFM W/PARTS
+    Sanitized in 0.011 seconds.
+  600 DIFM W/PARTS
+    Sanitized in 0.011 seconds.
+  500 PMS W/NOTES
+    Sanitized in 0.011 seconds.
+  600 PMS W/NOTES
+    Sanitized in 0.011 seconds.
+  700 PMS W/NOTES
+    Sanitized in 0.012 seconds.
+  800 PMS W/NOTES
+    Sanitized in 0.011 seconds.
+  500 BSY W/NOTES
+    Sanitized in 0.012 seconds.
+  700 DIFM W/NOTES
+    Sanitized in 0.011 seconds.
+  900 DIFM W/NOTES
+    Sanitized in 0.011 seconds.
+  400 PMS W/NOTES
+    Sanitized in 0.013 seconds.
+  900 BSY W/NOTES
+    Sanitized in 0.012 seconds.
+  800 BSY W/NOTES
+    Sanitized in 0.012 seconds.
+  700 BSY W/NOTES
+    Sanitized in 0.012 seconds.
+  600 BSY W/NOTES
+    Sanitized in 0.012 seconds.
+  other_Exrep W/NOTES
+    Sanitized in 0.013 seconds.
+  pmi_Exrep W/NOTES
+    Sanitized in 0.012 seconds.
+  Maf_Notes
+    Sanitized in 0.002 seconds.
+  500_600_other_mafs
+    Sanitized in 0.011 seconds.
+  900 PMS W/NOTES
+    Sanitized in 0.012 seconds.
+  Growler_MOC_MAFS W/NOTES
+    Sanitized in 0.011 seconds.
+  Exrep W/NOTES
+    Sanitized in 0.011 seconds.
+  oor_Exrep W/NOTES
+    Sanitized in 0.011 seconds.
+  saas_Exrep W/NOTES
+    Sanitized in 0.011 seconds.
+  500 DIFM W/NOTES
+    Sanitized in 0.011 seconds.
+  PMI_MAFS W/NOTES
+    Sanitized in 0.010 seconds.
+  P8_MOC_MAFS W/NOTES
+    Sanitized in 0.010 seconds.
+  H60_MOC_MAFS W/NOTES
+    Sanitized in 0.010 seconds.
+  Support_mafs
+    Sanitized in 0.012 seconds.
+  500 BSR W/SUPPORT
+    Sanitized in 0.011 seconds.
+  500 BSY W/SUPPORT
+    Sanitized in 0.011 seconds.
+  P8_MOC_MAFS W/SUPPORT
+    Sanitized in 0.010 seconds.
+  Growler_MOC_MAFS W/SUPPORT
+    Sanitized in 0.010 seconds.
+  H60_MOC_MAFS W/SUPPORT
+    Sanitized in 0.010 seconds.
+  PMI_MAFS W/SUPPORT
+    Sanitized in 0.010 seconds.
+  400 DIFM W/SUPPORT
+    Sanitized in 0.011 seconds.
+  600 BSR W/SUPPORT
+    Sanitized in 0.012 seconds.
+  700 BSR W/SUPPORT
+    Sanitized in 0.012 seconds.
+  800 BSR W/SUPPORT
+    Sanitized in 0.012 seconds.
+  900 BSR W/SUPPORT
+    Sanitized in 0.012 seconds.
+  600 BSY W/SUPPORT
+    Sanitized in 0.012 seconds.
+  700 BSY W/SUPPORT
+    Sanitized in 0.012 seconds.
+  800 BSY W/SUPPORT
+    Sanitized in 0.012 seconds.
+  900 BSY W/SUPPORT
+    Sanitized in 0.012 seconds.
+  Raw Data W/SUPPORT
+    Sanitized in 0.012 seconds.
+  700 DIFM W/SUPPORT
+    Sanitized in 0.011 seconds.
+  900 DIFM W/SUPPORT
+    Sanitized in 0.012 seconds.
+  Exrep W/SUPPORT
+    Sanitized in 0.013 seconds.
+  500 DIFM W/SUPPORT
+    Sanitized in 0.011 seconds.
+  900 PMS W/SUPPORT
+    Sanitized in 0.012 seconds.
+  800 PMS W/SUPPORT
+    Sanitized in 0.011 seconds.
+  500_600_DIFM_trimmed_support
+    Sanitized in 0.007 seconds.
+  700 PMS W/SUPPORT
+    Sanitized in 0.011 seconds.
+  600 DIFM W/SUPPORT
+    Sanitized in 0.011 seconds.
+  400 PMS W/SUPPORT
+    Sanitized in 0.012 seconds.
+  500 PMS W/SUPPORT
+    Sanitized in 0.012 seconds.
+  600 PMS W/SUPPORT
+    Sanitized in 0.012 seconds.
+  pmi_Exrep W/SUPPORT
+    Sanitized in 0.013 seconds.
+  oor_Exrep W/SUPPORT
+    Sanitized in 0.012 seconds.
+  saas_Exrep W/SUPPORT
+    Sanitized in 0.012 seconds.
+  other_ Exrep W/SUPPORT
+    Sanitized in 0.012 seconds.
+  Growler_ORG_list
+    Sanitized in 0.001 seconds.
+  H60_ORG_list
+    Sanitized in 0.001 seconds.
+  P8_ORG_list
+    Sanitized in 0.001 seconds.
+  Growler_ddsn_list
+    Sanitized in 0.003 seconds.
+  pmi_ddsn_list
+    Sanitized in 0.003 seconds.
+  500_600_DIFM_trimmed_notes
+    Sanitized in 0.006 seconds.
+  Buno_list
+    Sanitized in 0.001 seconds.
+  600 BSR W/PARTS
+    Sanitized in 0.012 seconds.
+  800 BSR W/PARTS
+    Sanitized in 0.011 seconds.
+  Priority_List_W/Mafs & Parts
+    Sanitized in 0.002 seconds.
+  600 BSY W/PARTS
+    Sanitized in 0.011 seconds.
+  800 BSY W/PARTS
+    Sanitized in 0.012 seconds.
+  800 DIFM W/SUPPORT
+    Sanitized in 0.011 seconds.
+  800 DIFM W/NOTES
+    Sanitized in 0.011 seconds.
+  ER W/SHELF STOCK
+    Sanitized in 0.011 seconds.
+  Requisitions_Raw_Data
+    Sanitized in 0.010 seconds.
+  cost_savings
+    Sanitized in 0.004 seconds.
+  600 BSR
+    Sanitized in 0.006 seconds.
+  500 BSR
+    Sanitized in 0.006 seconds.
+  500_600_AWP_SE_Discrepancy_mafs
+    Sanitized in 0.008 seconds.
+  500_600_NON-AWP_SE_Discrepancy_mafs
+    Sanitized in 0.008 seconds.
+  BunoSernoQsrchfrm
+    Sanitized in 0.014 seconds.
+  500_600_DIFM_trimmed_parts
+    Sanitized in 0.006 seconds.
+  Requisitions__trimmed
+    Sanitized in 0.006 seconds.
+  contrl_mcn_trimmed
+    Sanitized in 0.004 seconds.
+  CostSavingsFrm
+    Sanitized in 0.004 seconds.
+  DIFM_RejectFrm
+    Sanitized in 0.015 seconds.
+  Navigation Form
+    Sanitized in 0.019 seconds.
+  Refer W/Stock
+    Sanitized in 0.010 seconds.
+  quick run
+    Sanitized in 0.003 seconds.
+  BfferRedFrm
+    Sanitized in 0.007 seconds.
+  SepmsFrm
+    Sanitized in 0.009 seconds.
+  MocFrm
+    Sanitized in 0.007 seconds.
+  AK0_AK7_BSR_Frm
+    Sanitized in 0.005 seconds.
+  Maf_Notes_old
+    Sanitized in 0.004 seconds.
+  Requisitions_old
+    Sanitized in 0.010 seconds.
+  blankFrm
+    Sanitized in 0.001 seconds.
+  BSR W/ DDSN
+    Sanitized in 0.006 seconds.
+  ProjcdQsrch
+    Sanitized in 0.015 seconds.
+  CurStatusDateQsrch
+    Sanitized in 0.015 seconds.
+  DdsnQsrch
+    Sanitized in 0.016 seconds.
+  SepartnoQsrch
+    Sanitized in 0.015 seconds.
+  EpartnoQsrch
+    Sanitized in 0.015 seconds.
+  TecQsrch
+    Sanitized in 0.015 seconds.
+  FgcQsrch
+    Sanitized in 0.015 seconds.
+  EsernoQsrch
+    Sanitized in 0.014 seconds.
+  InitiatedQsrch
+    Sanitized in 0.015 seconds.
+  McnQsrch
+    Sanitized in 0.015 seconds.
+  MgmtcdQsrch
+    Sanitized in 0.015 seconds.
+  NiinQsrch
+    Sanitized in 0.015 seconds.
+  500_600_DIFM_IW
+    Sanitized in 0.006 seconds.
+  H60_ddsn_list
+    Sanitized in 0.003 seconds.
+  Priority_List_Report
+    Sanitized in 0.002 seconds.
+  p8_ddsn_list
+    Sanitized in 0.003 seconds.
+  tblFileLastModified
+    Sanitized in 0.003 seconds.
+  800_DogHouse
+    Sanitized in 0.008 seconds.
+  600_DogHouse
+    Sanitized in 0.008 seconds.
+  400_DogHouse
+    Sanitized in 0.009 seconds.
+  900_DogHouse
+    Sanitized in 0.008 seconds.
+  700_DogHouse
+    Sanitized in 0.008 seconds.
+  500_DogHouse
+    Sanitized in 0.008 seconds.
+  Project_code_frm
+    Sanitized in 0.003 seconds.
+  exrep_frm
+    Sanitized in 0.009 seconds.
+  Priority_List_W/Mafs & Support
+    Sanitized in 0.002 seconds.
+[165]
+-------------------------------------
+Exporting reports...            Priority_Report
+    Sanitized in 0.003 seconds.
+  500_600_IW_Report
+    Sanitized in 0.003 seconds.
+  800_DogHouse
+    Sanitized in 0.009 seconds.
+  600_DogHouse
+    Sanitized in 0.009 seconds.
+  400_DogHouse
+    Sanitized in 0.009 seconds.
+  500_DogHouse
+    Sanitized in 0.009 seconds.
+  DogHouse
+    Sanitized in 0.003 seconds.
+  900_DogHouse
+    Sanitized in 0.009 seconds.
+  700_DogHouse
+    Sanitized in 0.009 seconds.
+[9]
+-------------------------------------
+Exporting relations...          combinedCopy Of Requisitions_Raw_Data
+  combinedMaf_Notes
+  combinedRequisitions
+[3]
+-------------------------------------
+Exporting doc properties...     Database Documents
+[4]
+-------------------------------------
+Exporting nav pane groups...    Groups
+[22]
+-------------------------------------
+Done. (9.56 seconds)
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Forms                         165       5.17
+Queries                       112       2.88
+Reports                       9         0.43
+Tables                        24        0.38
+Nav Pane Groups               22        0.18
+Modules                       12        0.15
+IMEX Specs                    6         0.09
+DB Properties                 54        0.04
+Relations                     3         0.03
+Themes                        1         0.02
+Project                       1         0.02
+Doc Properties                4         0.02
+DB Connections                0         0.02
+CommandBars                   0         0.01
+VBE References                3         0.01
+VB Project                    1         0.01
+Table Data Macros             0         0.01
+Shared Images                 0         0.00
+Table Data                    0         0.00
+Hidden Attributes             0         0.00
+VBE Forms                     0         0.00
+Saved Specs                   0         0.00
+Proj Properties               0         0.00
+Macros                        0         0.00
+--------------------------------------------------
+TOTALS:                       417       9.46
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Sanitize File                 174       1.74
+Read File Bytes               323       1.49
+Convert to JSON               343       1.26
+Format SQL                    112       0.75
+App.SaveAsText()              174       0.71
+Write File                    536       0.61
+Read File DevMode             174       0.33
+Parse LvProp                  112       0.23
+Read File                     230       0.17
+App.ExportXML()               24        0.15
+Console Updates               19        0.14
+Get File Property Hash        338       0.13
+Reconstruct SQL               112       0.12
+Scan DB Objects               1         0.10
+Verify Path                   847       0.09
+Get Modified Date             920       0.09
+Get @Folder Annotation        372       0.07
+Compute SHA256                1230      0.06
+Read MSysQueries              112       0.06
+Read MSysObjects              112       0.05
+Delete File                   211       0.05
+Get VBA Hash                  186       0.04
+Export VBE Module             12        0.03
+Write JSON                    112       0.02
+Close Open Objects            1         0.02
+Parse JSON                    20        0.01
+Save Table SQL                24        0.01
+Sanitize XML                  24        0.01
+Format XML                    21        0.01
+Increment Progress            3         0.01
+Check for linked table        24        0.01
+Parse LvExtra                 112       0.01
+Write SQL                     112       0.00
+Sanitize VBA Code             45        0.00
+Format XML (alt)              3         0.00
+Quick Count Files             1         0.00
+Quick Count Objects           1         0.00
+Cache Back-End Connections    1         0.00
+Scan Folder Contents (API)    3         0.00
+Export Theme                  1         0.00
+Clear Files by Ext            10        0.00
+File Pattern Exists (API)     14        0.00
+modFileAccess.GetUncPath      1         0.00
+--------------------------------------------------
+Other Operations                        1.00
+TOTAL RUNTIME:                          9.56
+--------------------------------------------------
+
+

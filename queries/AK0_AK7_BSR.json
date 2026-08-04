@@ -1,0 +1,71 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AK0_AK7_BSR"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "acbal_qty": {
+        "ColumnWidth": 1305,
+        "AggregateType": -1
+      },
+      "AK0_AK7_difm": {
+        "ColumnWidth": 1785,
+        "AggregateType": -1
+      },
+      "buffer_design": {
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "due_in": {
+        "ColumnWidth": 1065,
+        "AggregateType": -1
+      },
+      "exreps": {
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      },
+      "faq_qty": {
+        "ColumnWidth": 1125,
+        "AggregateType": -1
+      },
+      "fgc": {
+        "ColumnWidth": 780,
+        "AggregateType": -1
+      },
+      "owed": {
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "pkup": {
+        "ColumnWidth": 885,
+        "AggregateType": -1
+      },
+      "rfi": {
+        "ColumnWidth": 630,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1449,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1433,
+        "bottom": 67
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+      ]
+    }
+  }
+}

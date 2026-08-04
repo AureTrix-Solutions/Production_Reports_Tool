@@ -1,0 +1,208 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Tbl_SelectedADHOCs" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Tbl_SelectedADHOCs">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:tableProperty name="Orientation" type="2" value="0"></od:tableProperty>
+        <od:tableProperty name="OrderByOn" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="DefaultView" type="2" value="2"></od:tableProperty>
+        <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"></od:tableProperty>
+        <od:tableProperty name="TotalsRow" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="FilterOnLoad" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="OrderByOnLoad" type="1" value="1"></od:tableProperty>
+        <od:tableProperty name="HideNewField" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="BackTint" type="6" value="100"></od:tableProperty>
+        <od:tableProperty name="BackShade" type="6" value="100"></od:tableProperty>
+        <od:tableProperty name="ThemeFontIndex" type="4" value="-1"></od:tableProperty>
+        <od:tableProperty name="AlternateBackThemeColorIndex" type="4" value="-1"></od:tableProperty>
+        <od:tableProperty name="AlternateBackTint" type="6" value="100"></od:tableProperty>
+        <od:tableProperty name="AlternateBackShade" type="6" value="100"></od:tableProperty>
+        <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"></od:tableProperty>
+        <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"></od:tableProperty>
+        <od:tableProperty name="OrderBy" type="12" value="tbl_SelectedADHOCs.SortOrder"></od:tableProperty>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="SortOrder" minOccurs="0" od:jetType="integer" od:sqlSType="smallint" type="xsd:short">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Sort order for list"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ADHOCName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2430"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="A name for the user to use to identify the ADHOC         v1.2 Mod"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="255"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ADHOCPath" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="7140"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="The full path of the ADHOC including Drive, File, Name, and Extension (ex. C:\ADHOC Files\ADHOC1.AH)        v1.2 Mod"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="TextFormat" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AppendOnly" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SavePath" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="6780"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="The full path of the Save File including Drive, File, Name, and Extension (ex. C:\ADHOC Saves\ADHOC1Sav.xls)           v1.2 Mod"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="TextFormat" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AppendOnly" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SaveFileType" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Specifies the save as file type for NALCOMIS to output"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="&quot;CSV&quot;;&quot;CSV with headers&quot;;&quot;Dbase 2&quot;;&quot;Dbase 3&quot;;&quot;DIF&quot;;&quot;Excel&quot;;&quot;Excel with headers&quot;;&quot;Excel5&quot;;&quot;Excel5 with headers&quot;;&quot;HTML Table&quot;;&quot;Powersoft Report&quot;;&quot;SQL&quot;;&quot;SYLK&quot;;&quot;SYLK with headers&quot;;&quot;Text&quot;;&quot;Text with headers&quot;;&quot;WKS&quot;;&quot;WKS with headers&quot;;&quot;WK1&quot;;&quot;WK1 with headers&quot;;&quot;Windows Metafile&quot;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="1440"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="1440twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowValueListEdits" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowMultipleValues" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ExeWith" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2490"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Specifies how the ADHOC is executed and whether it is executed with NALCOMIS or RSUPPLY           v1.2 Mod"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="&quot;NALCOMIS ADHOC&quot;;&quot;NALCOMIS SQL&quot;;&quot;RSUPPLY ADHOC&quot;;&quot;RSUPPLY SQL&quot;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="1545"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="1545twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowValueListEdits" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowMultipleValues" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [tblAHTemplates] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [FileName] VARCHAR (255),
+  [FileContent] LONGTEXT
+)

@@ -1,0 +1,49 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Grouped_inventory"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "difm_qty_total": {
+        "ColumnWidth": 2235,
+        "AggregateType": -1
+      },
+      "pkup_qty_total": {
+        "ColumnWidth": 2070,
+        "AggregateType": -1
+      },
+      "subcustody_qty": {
+        "ColumnWidth": 3075,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1514,
+        "bottom": 794
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1498,
+        "bottom": 186
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+      ]
+    }
+  }
+}

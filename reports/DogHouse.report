@@ -1,0 +1,166 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =14768
+    DatasheetFontHeight =11
+    ItemSuffix =11
+    RecSrcDt = Begin
+        0x2b31457dcf85e640
+    End
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =8991
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Subform
+                    Top =60
+                    Width =14648
+                    Height =1191
+                    Name ="400_DogHouse"
+                    SourceObject ="Report.400_DogHouse"
+                    EventProcPrefix ="Ctl400_DogHouse"
+
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =14648
+                    LayoutCachedHeight =1251
+                    ShowPageHeaderAndPageFooter =255
+                End
+                Begin PageBreak
+                    Top =1440
+                    Name ="PageBreak1"
+                End
+                Begin Subform
+                    Top =1620
+                    Width =14648
+                    Height =1191
+                    TabIndex =1
+                    Name ="500_DogHouse"
+                    SourceObject ="Report.500_DogHouse"
+                    EventProcPrefix ="Ctl500_DogHouse"
+
+                    LayoutCachedTop =1620
+                    LayoutCachedWidth =14648
+                    LayoutCachedHeight =2811
+                    ShowPageHeaderAndPageFooter =255
+                End
+                Begin PageBreak
+                    Top =2940
+                    Name ="PageBreak3"
+                End
+                Begin Subform
+                    Top =3120
+                    Width =14648
+                    Height =1191
+                    TabIndex =2
+                    Name ="600_DogHouse"
+                    SourceObject ="Report.600_DogHouse"
+                    EventProcPrefix ="Ctl600_DogHouse"
+
+                    LayoutCachedTop =3120
+                    LayoutCachedWidth =14648
+                    LayoutCachedHeight =4311
+                    ShowPageHeaderAndPageFooter =255
+                End
+                Begin PageBreak
+                    Top =4500
+                    Name ="PageBreak5"
+                End
+                Begin Subform
+                    Top =4620
+                    Width =14648
+                    Height =1191
+                    TabIndex =3
+                    Name ="700_DogHouse"
+                    SourceObject ="Report.700_DogHouse"
+                    EventProcPrefix ="Ctl700_DogHouse"
+
+                    LayoutCachedTop =4620
+                    LayoutCachedWidth =14648
+                    LayoutCachedHeight =5811
+                    ShowPageHeaderAndPageFooter =255
+                End
+                Begin PageBreak
+                    Top =6000
+                    Name ="PageBreak7"
+                End
+                Begin Subform
+                    Top =6120
+                    Width =14648
+                    Height =1191
+                    TabIndex =4
+                    Name ="800_DogHouse"
+                    SourceObject ="Report.800_DogHouse"
+                    EventProcPrefix ="Ctl800_DogHouse"
+
+                    LayoutCachedTop =6120
+                    LayoutCachedWidth =14648
+                    LayoutCachedHeight =7311
+                    ShowPageHeaderAndPageFooter =255
+                End
+                Begin PageBreak
+                    Top =7500
+                    Name ="PageBreak9"
+                End
+                Begin Subform
+                    Top =7620
+                    Width =14648
+                    Height =1191
+                    TabIndex =5
+                    Name ="900_DogHouse"
+                    SourceObject ="Report.900_DogHouse"
+                    EventProcPrefix ="Ctl900_DogHouse"
+
+                    LayoutCachedTop =7620
+                    LayoutCachedWidth =14648
+                    LayoutCachedHeight =8811
+                    ShowPageHeaderAndPageFooter =255
+                End
+            End
+        End
+    End
+End

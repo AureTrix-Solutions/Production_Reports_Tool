@@ -1,0 +1,2397 @@
+﻿{
+  "Info": {
+    "Class": "clsDbNavPaneGroup",
+    "Description": "Navigation Pane Custom Groups"
+  },
+  "Items": {
+    "Categories": [
+      {
+        "Name": "Production Report Tool",
+        "Flags": 0,
+        "Position": 2,
+        "Groups": [
+          {
+            "Name": "500/600 OTHER MAFS",
+            "Flags": 2,
+            "Position": 8,
+            "Objects": [
+              {
+                "Name": "500_600_other_mafs",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "500/600 SE DISCREPANCY MAFS",
+            "Flags": 2,
+            "Position": 9,
+            "Objects": [
+              {
+                "Name": "500_600_AWP_SE_Discrepancy_mafs",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "500_600_NON-AWP_SE_Discrepancy_mafs",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "BUFFER STATUS RED",
+            "Flags": 2,
+            "Position": 10,
+            "Objects": [
+              {
+                "Name": "500 BSR W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "500 BSR W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "500 BSR W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "600 BSR W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "600 BSR W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "600 BSR W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "700 BSR W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "700 BSR W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "700 BSR W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "800 BSR W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "800 BSR W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "800 BSR W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "900 BSR W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "900 BSR W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "900 BSR W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              }
+            ]
+          },
+          {
+            "Name": "BUFFER STATUS YELLOW",
+            "Flags": 2,
+            "Position": 11,
+            "Objects": [
+              {
+                "Name": "500 BSY W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "500 BSY W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "500 BSY W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "600 BSY W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "600 BSY W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "600 BSY W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "700 BSY W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "700 BSY W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "700 BSY W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "800 BSY W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "800 BSY W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "800 BSY W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "900 BSY W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "900 BSY W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "900 BSY W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              }
+            ]
+          },
+          {
+            "Name": "COST SAVINGS",
+            "Flags": 2,
+            "Position": 16,
+            "Objects": [
+              {
+                "Name": "cost_savings",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "DIFM",
+            "Flags": 2,
+            "Position": 12,
+            "Objects": [
+              {
+                "Name": "400 DIFM W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "400 DIFM W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "400 DIFM W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "500 DIFM W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "500 DIFM W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "500 DIFM W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "600 DIFM W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "600 DIFM W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "600 DIFM W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "700 DIFM W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "700 DIFM W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "700 DIFM W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "800 DIFM W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "800 DIFM W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "800 DIFM W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "900 DIFM W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "900 DIFM W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "900 DIFM W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              }
+            ]
+          },
+          {
+            "Name": "EXREP REPORT",
+            "Flags": 2,
+            "Position": 6,
+            "Objects": [
+              {
+                "Name": "Exrep W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "Exrep W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "Exrep W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "oor_Exrep W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "oor_Exrep W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "oor_Exrep W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "other_ Exrep W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "other_Exrep W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "other_Exrep W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "pmi_Exrep W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "pmi_Exrep W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "pmi_Exrep W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "saas_Exrep W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "saas_Exrep W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "saas_Exrep W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              }
+            ]
+          },
+          {
+            "Name": "EXREP WITH SHELF STOCK",
+            "Flags": 2,
+            "Position": 7,
+            "Objects": [
+              {
+                "Name": "ER W/SHELF STOCK",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "Forms",
+            "Flags": 3,
+            "Position": 17,
+            "Objects": [
+              {
+                "Name": "400_DogHouse",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 51
+              },
+              {
+                "Name": "500 BSR",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "500_600_DIFM_IW",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 38
+              },
+              {
+                "Name": "500_600_DIFM_trimmed_notes",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "500_600_DIFM_trimmed_parts",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "500_600_DIFM_trimmed_support",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "500_DogHouse",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 46
+              },
+              {
+                "Name": "600 BSR",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "600_DogHouse",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 47
+              },
+              {
+                "Name": "700_DogHouse",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 48
+              },
+              {
+                "Name": "800_DogHouse",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 49
+              },
+              {
+                "Name": "900_DogHouse",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 50
+              },
+              {
+                "Name": "AK0_AK7_BSR_Frm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 21
+              },
+              {
+                "Name": "BfferRedFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "BfferYellowFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "blankFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 30
+              },
+              {
+                "Name": "BSR W/ DDSN",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 39
+              },
+              {
+                "Name": "BunoSernoQsrchfrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 24
+              },
+              {
+                "Name": "ConfigFrm_SelectADHOCs",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "contrl_mcn_trimmed",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "CostSavingsFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "CurStatusDateQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 25
+              },
+              {
+                "Name": "DdsnQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 26
+              },
+              {
+                "Name": "DIFM_RejectFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 23
+              },
+              {
+                "Name": "DIFM_trimmed_notes",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 44
+              },
+              {
+                "Name": "EpartnoQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 27
+              },
+              {
+                "Name": "EsernoQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 28
+              },
+              {
+                "Name": "exrep_frm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 54
+              },
+              {
+                "Name": "FgcQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 29
+              },
+              {
+                "Name": "Growler_ddsn_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 40
+              },
+              {
+                "Name": "H60_ddsn_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 41
+              },
+              {
+                "Name": "InitiatedQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 34
+              },
+              {
+                "Name": "Maf_Notes",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "Maf_Notes_old",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "McnQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 31
+              },
+              {
+                "Name": "MgmtcdQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 32
+              },
+              {
+                "Name": "MmcoDailyFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 20
+              },
+              {
+                "Name": "MocFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "Navigation Form",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "NiinQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 33
+              },
+              {
+                "Name": "p8_ddsn_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 42
+              },
+              {
+                "Name": "pmi_ddsn_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 43
+              },
+              {
+                "Name": "ProjcdQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 37
+              },
+              {
+                "Name": "Project_code_frm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 53
+              },
+              {
+                "Name": "quick run",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "Refer W/Stock",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 52
+              },
+              {
+                "Name": "Requisitions",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 22
+              },
+              {
+                "Name": "Requisitions__trimmed",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "Requisitions_old",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 19
+              },
+              {
+                "Name": "SepartnoQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 35
+              },
+              {
+                "Name": "SepmsFrm",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "Support_mafs",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "tblFileLastModified",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 45
+              },
+              {
+                "Name": "TecQsrch",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 36
+              },
+              {
+                "Name": "version",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "GROWLER MOC",
+            "Flags": 2,
+            "Position": 3,
+            "Objects": [
+              {
+                "Name": "Growler_MOC_MAFS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "Growler_MOC_MAFS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "Growler_MOC_MAFS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "Growler_ORG_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              }
+            ]
+          },
+          {
+            "Name": "H60 MOC",
+            "Flags": 2,
+            "Position": 5,
+            "Objects": [
+              {
+                "Name": "H60_MOC_MAFS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "H60_MOC_MAFS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "H60_MOC_MAFS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "H60_ORG_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              }
+            ]
+          },
+          {
+            "Name": "Modules",
+            "Flags": 3,
+            "Position": 18,
+            "Objects": [
+              {
+                "Name": "activeNalcomis",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "ADHOC Engine v3_1",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "ak0ak7Nalcomis",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "allNalcomis",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "API",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "DateModified",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "FirstRun",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "FixCapsNumScroll",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "FormGenerator",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "historicalNalcomis",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "modNalcomis",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "Stand Alone Module",
+                "Type": -32761,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              }
+            ]
+          },
+          {
+            "Name": "P8 MOC",
+            "Flags": 2,
+            "Position": 4,
+            "Objects": [
+              {
+                "Name": "P8_MOC_MAFS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "P8_MOC_MAFS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "P8_MOC_MAFS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "P8_ORG_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              }
+            ]
+          },
+          {
+            "Name": "PMI",
+            "Flags": 2,
+            "Position": 2,
+            "Objects": [
+              {
+                "Name": "Buno_list",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "PMI_MAFS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "PMI_MAFS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "PMI_MAFS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              }
+            ]
+          },
+          {
+            "Name": "PMS",
+            "Flags": 2,
+            "Position": 13,
+            "Objects": [
+              {
+                "Name": "400 PMS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "400 PMS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "400 PMS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "500 PMS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "500 PMS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "500 PMS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "600 PMS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "600 PMS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "600 PMS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "700 PMS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "700 PMS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "700 PMS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "800 PMS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "800 PMS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "800 PMS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "900 PMS W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "900 PMS W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "900 PMS W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              }
+            ]
+          },
+          {
+            "Name": "QUERIES",
+            "Flags": 3,
+            "Position": 20,
+            "Objects": [
+              {
+                "Name": "400 DIFM",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 22
+              },
+              {
+                "Name": "400 PMS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "400_D",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 83
+              },
+              {
+                "Name": "400_DogHouse",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 84
+              },
+              {
+                "Name": "500 BSR",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 33
+              },
+              {
+                "Name": "500 BSY",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 28
+              },
+              {
+                "Name": "500 DIFM",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 23
+              },
+              {
+                "Name": "500 PMS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "500_600_AWP_SE_Discrepancy_mafs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 51
+              },
+              {
+                "Name": "500_600_BS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 44
+              },
+              {
+                "Name": "500_600_BS_Crosstab",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 47
+              },
+              {
+                "Name": "500_600_DIFM_IW",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 74
+              },
+              {
+                "Name": "500_600_DIFM_trimmed_notes",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 46
+              },
+              {
+                "Name": "500_600_DIFM_trimmed_parts",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 48
+              },
+              {
+                "Name": "500_600_DIFM_trimmed_support",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 50
+              },
+              {
+                "Name": "500_600_NON-AWP_SE_Discrepancy_mafs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 52
+              },
+              {
+                "Name": "500_600_other_mafs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 53
+              },
+              {
+                "Name": "500_600_pri_Report",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 76
+              },
+              {
+                "Name": "500_600_Pri_Report_CrossTab",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 75
+              },
+              {
+                "Name": "500_600_Priority_List",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 55
+              },
+              {
+                "Name": "500_D",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 85
+              },
+              {
+                "Name": "500_DogHouse",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 86
+              },
+              {
+                "Name": "600 BSR",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 34
+              },
+              {
+                "Name": "600 BSY",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 29
+              },
+              {
+                "Name": "600 DIFM",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 24
+              },
+              {
+                "Name": "600 PMS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "600_D",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 87
+              },
+              {
+                "Name": "600_DogHouse",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 88
+              },
+              {
+                "Name": "700 BSR",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 35
+              },
+              {
+                "Name": "700 BSY",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 30
+              },
+              {
+                "Name": "700 DIFM",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 25
+              },
+              {
+                "Name": "700 PMS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "700_D",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 89
+              },
+              {
+                "Name": "700_DogHouse",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 90
+              },
+              {
+                "Name": "800 BSR",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 36
+              },
+              {
+                "Name": "800 BSY",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 31
+              },
+              {
+                "Name": "800 DIFM",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 26
+              },
+              {
+                "Name": "800 PMS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "800_D",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 91
+              },
+              {
+                "Name": "800_DogHouse",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 92
+              },
+              {
+                "Name": "900 BSR",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 37
+              },
+              {
+                "Name": "900 BSY",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 32
+              },
+              {
+                "Name": "900 DIFM",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 27
+              },
+              {
+                "Name": "900 PMS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "900_D",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 93
+              },
+              {
+                "Name": "900_DogHouse",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 94
+              },
+              {
+                "Name": "AK0_AK7_BSR",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 42
+              },
+              {
+                "Name": "BSR W/ DDSN",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 77
+              },
+              {
+                "Name": "Buffer_status",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "BunoSernoQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 61
+              },
+              {
+                "Name": "contrl_mcn",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 40
+              },
+              {
+                "Name": "contrl_mcn_trimmed",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 45
+              },
+              {
+                "Name": "Copy Of Requisitions_Raw_Data",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 20
+              },
+              {
+                "Name": "cost_savings",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "Cost_savings_work",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "CurStatusDateQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 62
+              },
+              {
+                "Name": "DdsnQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 63
+              },
+              {
+                "Name": "DIFM_Reject",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 60
+              },
+              {
+                "Name": "DIFM_reject_raw",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 58
+              },
+              {
+                "Name": "DIFM_trimmed_notes",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 82
+              },
+              {
+                "Name": "EA-18G ddsn List",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 78
+              },
+              {
+                "Name": "EpartnoQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 64
+              },
+              {
+                "Name": "ER W/SHELF STOCK",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "EsernoQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 65
+              },
+              {
+                "Name": "Exrep",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "fgc_bsr_work",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 41
+              },
+              {
+                "Name": "FgcQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 66
+              },
+              {
+                "Name": "Grouped_inventory",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "Growler_MOC_MAFS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "H60_MOC_MAFS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "InitiatedQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 67
+              },
+              {
+                "Name": "Maf_Notes_Q",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 54
+              },
+              {
+                "Name": "Maf_notes_reject",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 59
+              },
+              {
+                "Name": "Maf_notes_test",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 56
+              },
+              {
+                "Name": "MAF_With_Notes",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "McnQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 68
+              },
+              {
+                "Name": "MgmtcdQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 69
+              },
+              {
+                "Name": "MH60-S ddsn list",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 79
+              },
+              {
+                "Name": "MMCO BS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 43
+              },
+              {
+                "Name": "moc_mafs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 38
+              },
+              {
+                "Name": "moc_mafs_w_name",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "NiinQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 70
+              },
+              {
+                "Name": "OOR_Exrep",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 98
+              },
+              {
+                "Name": "Other_Exrep",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 96
+              },
+              {
+                "Name": "P8_MOC_MAFS",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 19
+              },
+              {
+                "Name": "P-8A ddsn list",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 80
+              },
+              {
+                "Name": "PMI ddsn list",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 81
+              },
+              {
+                "Name": "PMI_Exrep",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 97
+              },
+              {
+                "Name": "pmi_mafs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 21
+              },
+              {
+                "Name": "pmi_mafs_w_name",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 39
+              },
+              {
+                "Name": "ProjcdQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 71
+              },
+              {
+                "Name": "Raw Data",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "Refer W/Stock",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 95
+              },
+              {
+                "Name": "Requisitions__trimmed",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 49
+              },
+              {
+                "Name": "Requisitions_Raw_Data",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "Requisitions_Raw_Data_With_MOM_FGC",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "Requisitions_Raw_test",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 57
+              },
+              {
+                "Name": "SAAS_Exrep",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 99
+              },
+              {
+                "Name": "SepartnoQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 72
+              },
+              {
+                "Name": "TecQsrch",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 73
+              }
+            ]
+          },
+          {
+            "Name": "RAW DATA",
+            "Flags": 0,
+            "Position": 14,
+            "Objects": [
+              {
+                "Name": "Raw Data W/NOTES",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "Raw Data W/PARTS",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "Raw Data W/SUPPORT",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              }
+            ]
+          },
+          {
+            "Name": "RAW DATA REQUISITIONS",
+            "Flags": 2,
+            "Position": 15,
+            "Objects": [
+              {
+                "Name": "Requisitions_Raw_Data",
+                "Type": -32768,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              }
+            ]
+          },
+          {
+            "Name": "REFRESH DATA",
+            "Flags": 3,
+            "Position": 19,
+            "Objects": [
+              {
+                "Name": "combined Query1",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "cost_key",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "Growler_ddsn_list_clean_up",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "H60_ddsn_list_clean_up",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "maf_age_q",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "Maf_Notes Query",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "Maf_Notes Query1",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "P8_ddsn_list_clean_up",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "Qry_ClearSelectedADHOCs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "Qry_SelectADHOCs",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "Requisitions Query",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "Requisitions Query1",
+                "Type": 5,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              }
+            ]
+          },
+          {
+            "Name": "Reports",
+            "Flags": 3,
+            "Position": 21,
+            "Objects": [
+              {
+                "Name": "400_DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "500_600_IW_Report",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "500_DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "600_DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "700_DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "800_DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "900_DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "DogHouse",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "Priority_Report",
+                "Type": -32764,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              }
+            ]
+          },
+          {
+            "Name": "TABLES",
+            "Flags": 3,
+            "Position": 1,
+            "Objects": [
+              {
+                "Name": "Active_AdHocs",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 4
+              },
+              {
+                "Name": "ak0_ak7_bsr_adhocs",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 10
+              },
+              {
+                "Name": "All_AdHocs",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 3
+              },
+              {
+                "Name": "Buno_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 7
+              },
+              {
+                "Name": "combined",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 0
+              },
+              {
+                "Name": "ConfigTbl_ADHOCEngine",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 2
+              },
+              {
+                "Name": "Growler_ddsn_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 11
+              },
+              {
+                "Name": "Growler_ORG_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 9
+              },
+              {
+                "Name": "H60_ddsn_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 12
+              },
+              {
+                "Name": "H60_ORG_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 8
+              },
+              {
+                "Name": "Historical_AdHocs",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 5
+              },
+              {
+                "Name": "Hof_niin",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 22
+              },
+              {
+                "Name": "Inventory",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 6
+              },
+              {
+                "Name": "Maf_Notes",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 1
+              },
+              {
+                "Name": "Main_org_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 16
+              },
+              {
+                "Name": "p8_ddsn_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 13
+              },
+              {
+                "Name": "P8_ORG_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 14
+              },
+              {
+                "Name": "pmi_ddsn_list",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 15
+              },
+              {
+                "Name": "Project_code_table",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 23
+              },
+              {
+                "Name": "Requisitions",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 21
+              },
+              {
+                "Name": "Tbl_SelectedADHOCs",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 17
+              },
+              {
+                "Name": "tblAHTemplates",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 18
+              },
+              {
+                "Name": "tblCsvFileNames",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 19
+              },
+              {
+                "Name": "tblFileLastModified",
+                "Type": 1,
+                "Flags": 0,
+                "Icon": 0,
+                "Position": 20
+              }
+            ]
+          },
+          {
+            "Name": "Unassigned Objects",
+            "Flags": 4,
+            "Position": 22,
+            "Objects": [
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

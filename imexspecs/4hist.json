@@ -1,0 +1,254 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 2,
+    "DecimalPoint": ".",
+    "FieldSeparator": ",",
+    "FileType": 437,
+    "SpecName": "4hist",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "\"",
+    "TimeDelim": ":",
+    "Columns": {
+      "A1_date_text": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 184,
+        "Width": 15
+      },
+      "A1_status": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 170,
+        "Width": 14
+      },
+      "act_take_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 158,
+        "Width": 12
+      },
+      "aimd_loctn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": true,
+        "Start": 50,
+        "Width": 11
+      },
+      "buno_serno": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 103,
+        "Width": 11
+      },
+      "cntl_mcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 29,
+        "Width": 9
+      },
+      "cur_mgmt_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 61,
+        "Width": 12
+      },
+      "cur_ti_ddsn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 38,
+        "Width": 12
+      },
+      "current_status": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 218,
+        "Width": 14
+      },
+      "current_status_date_text": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 232,
+        "Width": 19
+      },
+      "e_part_no": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 77,
+        "Width": 10
+      },
+      "e_serno": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 87,
+        "Width": 8
+      },
+      "eqp_sts_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 292,
+        "Width": 10
+      },
+      "fgc": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 4
+      },
+      "Initiated_date_text": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 199,
+        "Width": 19
+      },
+      "jcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 73,
+        "Width": 4
+      },
+      "maint_lv_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 261,
+        "Width": 12
+      },
+      "maint_trans_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 143,
+        "Width": 15
+      },
+      "mcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 21,
+        "Width": 8
+      },
+      "net_price": {
+        "Attributes": 0,
+        "DataType": 5,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 133,
+        "Width": 10
+      },
+      "niin": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 10,
+        "Width": 5
+      },
+      "proj_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 284,
+        "Width": 8
+      },
+      "se_part_no": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 95,
+        "Width": 8
+      },
+      "sys_rsn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 114,
+        "Width": 8
+      },
+      "tec": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 5,
+        "Width": 5
+      },
+      "ty_maf_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 251,
+        "Width": 10
+      },
+      "unit_price": {
+        "Attributes": 0,
+        "DataType": 5,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 122,
+        "Width": 11
+      },
+      "wc_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 15,
+        "Width": 6
+      },
+      "wrk_pri_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 273,
+        "Width": 11
+      }
+    }
+  }
+}

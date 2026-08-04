@@ -1,0 +1,110 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "MAF_With_Notes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "SubdatasheetName": {
+        "Type": 10,
+        "Value": "Table.Maf_Notes"
+      },
+      "LinkChildFields": {
+        "Type": 10,
+        "Value": "mcn"
+      },
+      "LinkMasterFields": {
+        "Type": 10,
+        "Value": "mcn"
+      },
+      "SubdatasheetHeight": {
+        "Type": 3,
+        "Value": 0
+      },
+      "SubdatasheetExpanded": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "Columns": {
+      "combined.buno_serno": {
+        "ColumnWidth": 1530,
+        "AggregateType": -1
+      },
+      "combined.e_part_no": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "combined.e_serno": {
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "combined.fgc": {
+        "ColumnWidth": 795,
+        "AggregateType": -1
+      },
+      "combined.jcn": {
+        "ColumnWidth": 1410,
+        "AggregateType": -1
+      },
+      "combined.mcn": {
+        "ColumnWidth": 1185,
+        "AggregateType": -1
+      },
+      "combined.niin": {
+        "ColumnWidth": 1125,
+        "AggregateType": -1
+      },
+      "combined.se_part_no": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "combined.sys_rsn": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "combined.wc_cd": {
+        "ColumnWidth": 990,
+        "AggregateType": -1
+      },
+      "days_on_backlog": {
+        "ColumnWidth": 1995,
+        "AggregateType": -1
+      },
+      "org_cd": {
+        "ColumnWidth": 1035,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1481,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1465,
+        "bottom": -1
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "combined",
+          "Alias": "",
+          "Left": 48,
+          "Top": 12,
+          "Right": 192,
+          "Bottom": 156,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

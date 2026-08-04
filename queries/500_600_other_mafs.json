@@ -1,0 +1,55 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "500_600_other_mafs"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Buffer_status.buffer_status": {
+        "ColumnHidden": true,
+        "AggregateType": -1
+      },
+      "Buffer_status.difm_qty": {
+        "ColumnHidden": true,
+        "AggregateType": -1
+      },
+      "Buffer_status.exrp_qty": {
+        "ColumnHidden": true,
+        "AggregateType": -1
+      },
+      "Buffer_status.rfi_qty": {
+        "ColumnHidden": true,
+        "AggregateType": -1
+      },
+      "Buffer_status.supply_percent": {
+        "ColumnHidden": true,
+        "AggregateType": -1
+      },
+      "combined.proj_cd": {
+        "ColumnHidden": true,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 987,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 971,
+        "bottom": -1
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

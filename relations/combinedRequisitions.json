@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "combinedRequisitions",
+    "Attributes": 16777218,
+    "Table": "combined",
+    "ForeignTable": "Requisitions",
+    "Fields": [
+      {
+        "Name": "mcn",
+        "ForeignName": "mcn"
+      }
+    ]
+  }
+}

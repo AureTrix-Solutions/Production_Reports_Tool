@@ -1,0 +1,48 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "cost_key"
+  },
+  "Items": {
+    "QueryType": 48,
+    "QueryProperties": {
+      "RecordLocks": {
+        "Type": 2,
+        "Value": 2
+      },
+      "FailOnError": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1514,
+        "bottom": 794
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1498,
+        "bottom": 515
+      },
+      "GridLeft": 192,
+      "GridTop": 0,
+      "ColumnsShown": 579,
+      "Tables": [
+        {
+          "Name": "combined",
+          "Alias": "",
+          "Left": 48,
+          "Top": -180,
+          "Right": 192,
+          "Bottom": -36,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

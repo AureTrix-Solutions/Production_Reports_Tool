@@ -1,0 +1,268 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    OrderByOn = NotDefault
+    AllowDesignChanges = NotDefault
+    ScrollBars =2
+    ViewsAllowed =1
+    TabularFamily =0
+    BorderStyle =3
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =6600
+    DatasheetFontHeight =10
+    ItemSuffix =11
+    Right =50000
+    Bottom =50000
+    OrderBy ="[configtbl_adhocengine].[SortOrder]"
+    RecSrcDt = Begin
+        0x9a95634e8b00e340
+    End
+    RecordSource ="ConfigTbl_ADHOCEngine"
+    Caption ="Select ADHOCs to Run"
+    DatasheetFontName ="Arial"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =900
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =780
+                    Top =600
+                    Width =3240
+                    Height =240
+                    Name ="ADHOCName_Label"
+                    Caption ="ADHOC Name"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =780
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =4020
+                    LayoutCachedHeight =840
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =4080
+                    Top =600
+                    Width =990
+                    Height =240
+                    Name ="RunADHOC_Label"
+                    Caption ="Run ADHOC"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =4080
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =5070
+                    LayoutCachedHeight =840
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =480
+                    Top =60
+                    Height =480
+                    Name ="UNSELECT ALL"
+                    Caption ="UNSELECT ALL"
+                    OnClick ="[Event Procedure]"
+                    EventProcPrefix ="UNSELECT_ALL"
+                    ControlTipText ="De-selects all Adhocs"
+
+                    LayoutCachedLeft =480
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1920
+                    LayoutCachedHeight =540
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2160
+                    Top =60
+                    Height =480
+                    TabIndex =1
+                    Name ="select all"
+                    Caption ="SELECT ALL"
+                    OnClick ="[Event Procedure]"
+                    EventProcPrefix ="select_all"
+                    ControlTipText ="Quick selects all the AdHocs"
+
+                    LayoutCachedLeft =2160
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3600
+                    LayoutCachedHeight =540
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3900
+                    Top =60
+                    Height =480
+                    TabIndex =2
+                    Name ="RunSelectedBtn"
+                    Caption ="RUN SELECTED"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Requires NALCOMIS main menu to be open first. \015\012Runs AdHocs & imports data"
+                        " automatically. \015\012Don't use mouse/keyboard until finished. \015\012If froz"
+                        "en, restart the database and try again.\015\012\015\012Runs all Adhocs that have"
+                        " been\015\012selected below"
+
+                    LayoutCachedLeft =3900
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5340
+                    LayoutCachedHeight =540
+                    Overlaps =1
+                End
+            End
+        End
+        Begin Section
+            Height =300
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =780
+                    Top =60
+                    Width =3240
+                    ColumnWidth =3000
+                    Name ="ADHOCName"
+                    ControlSource ="ADHOCName"
+                    StatusBarText ="A name for the user to use to identify the ADHOC"
+
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =4440
+                    Top =60
+                    TabIndex =1
+                    Name ="RunADHOC"
+                    ControlSource ="RunADHOC"
+                    StatusBarText ="Specifies whether the user wishes to run the ADHOC   v1.1 Mod"
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =240
+                    Top =60
+                    Width =180
+                    TabIndex =2
+                    Name ="SortOrder"
+                    ControlSource ="SortOrder"
+                    StatusBarText ="Sort order for AdHoc list"
+
+                    LayoutCachedLeft =240
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =420
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+        End
+    End
+End
+CodeBehindForm
+' See "ConfigFrm_SelectADHOCs.cls"

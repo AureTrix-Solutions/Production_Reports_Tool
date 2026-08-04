@@ -1,0 +1,35 @@
+﻿SELECT
+  pmi_mafs.[fgc],
+  pmi_mafs.[tec],
+  pmi_mafs.[niin],
+  pmi_mafs.[hof_niin],
+  pmi_mafs.[wc_cd],
+  pmi_mafs.[mcn],
+  pmi_mafs.[cur_ti_ddsn],
+  pmi_mafs.[org_cd],
+  Main_org_list.org_name,
+  pmi_mafs.[cur_mgmt_cd],
+  pmi_mafs.[jcn],
+  pmi_mafs.[e_part_no],
+  pmi_mafs.[e_serno],
+  pmi_mafs.[se_part_no],
+  pmi_mafs.[buno_serno],
+  pmi_mafs.[sys_rsn],
+  pmi_mafs.[unit_price],
+  pmi_mafs.[net_price],
+  pmi_mafs.[act_take_cd],
+  pmi_mafs.[maint_trans_cd],
+  pmi_mafs.[initiated_date],
+  pmi_mafs.[current_status],
+  pmi_mafs.[current_status_date],
+  pmi_mafs.[Maf_age],
+  pmi_mafs.[ty_maf_cd],
+  pmi_mafs.[maint_lv_cd],
+  pmi_mafs.[wrk_pri_cd],
+  pmi_mafs.[proj_cd]
+FROM
+  (
+    pmi_mafs
+    INNER JOIN [pmi ddsn list] ON pmi_mafs.cur_ti_ddsn = [pmi ddsn list].ddsn
+  )
+  LEFT JOIN Main_org_list ON pmi_mafs.org_cd = Main_org_list.org_code;

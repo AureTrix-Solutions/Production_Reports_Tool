@@ -1,0 +1,113 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11558
+    DatasheetFontHeight =11
+    ItemSuffix =6
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x8b23720bb388e640
+    End
+    RecordSource ="p8_ddsn_list"
+    OnClose ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    AllowFormView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =915
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2100
+                    Top =600
+                    Height =315
+                    Name ="ddsn"
+                    ControlSource ="ddsn"
+
+                    LayoutCachedLeft =2100
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =3540
+                    LayoutCachedHeight =915
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =300
+                            Top =600
+                            Width =525
+                            Height =315
+                            Name ="Label5"
+                            Caption ="ddsn"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =600
+                            LayoutCachedWidth =825
+                            LayoutCachedHeight =915
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "p8_ddsn_list.cls"

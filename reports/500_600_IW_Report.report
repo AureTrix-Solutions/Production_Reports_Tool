@@ -1,0 +1,123 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =15120
+    DatasheetFontHeight =11
+    ItemSuffix =2
+    RecSrcDt = Begin
+        0xc6d03a995583e640
+    End
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin PageHeader
+            Height =360
+            Name ="PageHeaderSection"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    OverlapFlags =81
+                    Left =240
+                    Top =60
+                    Width =2340
+                    Height =300
+                    Name ="Label1"
+                    Caption ="500/600 In Work Mafs"
+                    LayoutCachedLeft =240
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2580
+                    LayoutCachedHeight =360
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =6600
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Subform
+                    Locked = NotDefault
+                    OverlapFlags =211
+                    Left =60
+                    Top =60
+                    Width =14955
+                    Height =6540
+                    Name ="500_600_DIFM_IW"
+                    SourceObject ="Form.500_600_DIFM_IW"
+                    EventProcPrefix ="Ctl500_600_DIFM_IW"
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =15015
+                    LayoutCachedHeight =6600
+                    Begin
+                        Begin Label
+                            OverlapFlags =81
+                            Left =60
+                            Width =1875
+                            Height =315
+                            Name ="Label0"
+                            Caption ="500_600_DIFM_IW:"
+                            LayoutCachedLeft =60
+                            LayoutCachedWidth =1935
+                            LayoutCachedHeight =315
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="PageFooterSection"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

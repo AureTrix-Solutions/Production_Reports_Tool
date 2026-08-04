@@ -1,0 +1,206 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 2,
+    "DecimalPoint": ".",
+    "FieldSeparator": ",",
+    "FileType": 437,
+    "SpecName": "reqs1",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "\"",
+    "TimeDelim": ":",
+    "Columns": {
+      "buno_serno": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 180,
+        "Width": 11
+      },
+      "cage": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 9,
+        "Width": 6
+      },
+      "cog": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 15,
+        "Width": 4
+      },
+      "cur_mcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 19,
+        "Width": 8
+      },
+      "cur_niin": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 27,
+        "Width": 10
+      },
+      "cur_ti_ddsn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 191,
+        "Width": 12
+      },
+      "ddsn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 37,
+        "Width": 9
+      },
+      "ddsn_suf": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 46,
+        "Width": 9
+      },
+      "fgc": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 163,
+        "Width": 5
+      },
+      "jcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 203,
+        "Width": 12
+      },
+      "lsc": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 55,
+        "Width": 6
+      },
+      "lsc_dttm_text": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 261,
+        "Width": 24
+      },
+      "mcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 8
+      },
+      "net_price": {
+        "Attributes": 0,
+        "DataType": 5,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 227,
+        "Width": 10
+      },
+      "nomen": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 101,
+        "Width": 41
+      },
+      "ord_dttm_text": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 237,
+        "Width": 24
+      },
+      "ord_qty": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 61,
+        "Width": 8
+      },
+      "part_no": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 69,
+        "Width": 18
+      },
+      "rep_itm_ind": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 168,
+        "Width": 12
+      },
+      "rep_mcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 87,
+        "Width": 8
+      },
+      "ui": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 142,
+        "Width": 21
+      },
+      "unit_price": {
+        "Attributes": 0,
+        "DataType": 5,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 215,
+        "Width": 12
+      },
+      "wc_cd": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 95,
+        "Width": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =12150
+    DatasheetFontHeight =11
+    ItemSuffix =3
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x4cc9c1f6537ae640
+    End
+    RecordSource ="Growler_ORG_list"
+    DatasheetFontName ="Calibri"
+    AllowFormView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =861
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2295
+                    Top =360
+                    Width =9825
+                    Height =359
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Growler_org_code"
+                    ControlSource ="Growler_org_code"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =2295
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =12120
+                    LayoutCachedHeight =719
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =360
+                            Width =1873
+                            Height =359
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label0"
+                            Caption ="Growler_org_code"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =360
+                            LayoutCachedWidth =2233
+                            LayoutCachedHeight =719
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+            End
+        End
+    End
+End

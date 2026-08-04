@@ -1,0 +1,57 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "500_600_BS_Crosstab"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "SubdatasheetName": {
+        "Type": 10,
+        "Value": "Query.[Form].500_600_DIFM_trimmed_notes"
+      },
+      "LinkMasterFields": {
+        "Type": 10,
+        "Value": "fgc"
+      },
+      "LinkChildFields": {
+        "Type": 10,
+        "Value": "fgc"
+      }
+    },
+    "Columns": {
+      "buffer_status_": {
+        "ColumnWidth": 1770,
+        "AggregateType": -1
+      },
+      "MaxOfsupply_percent": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "supply_percnt": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1449,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1433,
+        "bottom": 67
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2607,
+      "Tables": [
+      ]
+    }
+  }
+}

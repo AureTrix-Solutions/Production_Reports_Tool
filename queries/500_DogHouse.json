@@ -1,0 +1,117 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "500_DogHouse"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "Div": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 720,
+        "AggregateType": -1
+      },
+      "hof": {
+        "ColumnOrder": 8,
+        "AggregateType": -1
+      },
+      "t1.buno_serno": {
+        "ColumnOrder": 12,
+        "ColumnWidth": 1530,
+        "AggregateType": -1
+      },
+      "T1.current_status": {
+        "ColumnOrder": 15,
+        "ColumnWidth": 1755,
+        "AggregateType": -1
+      },
+      "t1.current_status_date": {
+        "ColumnOrder": 16,
+        "ColumnWidth": 1650,
+        "AggregateType": -1
+      },
+      "t1.e_part_no": {
+        "ColumnOrder": 9,
+        "AggregateType": -1
+      },
+      "t1.e_serno": {
+        "ColumnOrder": 10,
+        "ColumnWidth": 1350,
+        "AggregateType": -1
+      },
+      "T1.fgc": {
+        "ColumnOrder": 2,
+        "ColumnWidth": 750,
+        "AggregateType": -1
+      },
+      "T1.initiated_date": {
+        "ColumnOrder": 14,
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "T1.jcn": {
+        "ColumnOrder": 6,
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "T1.Maf_age": {
+        "ColumnOrder": 18,
+        "AggregateType": -1
+      },
+      "T1.mcn": {
+        "ColumnOrder": 5,
+        "ColumnWidth": 1155,
+        "AggregateType": -1
+      },
+      "T1.niin": {
+        "ColumnOrder": 7,
+        "ColumnWidth": 1125,
+        "AggregateType": -1
+      },
+      "t1.se_part_no": {
+        "ColumnOrder": 11,
+        "ColumnWidth": 1965,
+        "AggregateType": -1
+      },
+      "t1.sys_rsn": {
+        "ColumnOrder": 13,
+        "ColumnWidth": 2655,
+        "AggregateType": -1
+      },
+      "T1.tec": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 750,
+        "AggregateType": -1
+      },
+      "t1.ty_maf_cd": {
+        "ColumnOrder": 17,
+        "AggregateType": -1
+      },
+      "T1.wc_cd": {
+        "ColumnOrder": 4,
+        "ColumnWidth": 990,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1449,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1433,
+        "bottom": 101
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+      ]
+    }
+  }
+}
