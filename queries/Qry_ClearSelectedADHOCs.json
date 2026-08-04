@@ -1,0 +1,48 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Qry_ClearSelectedADHOCs"
+  },
+  "Items": {
+    "QueryType": 32,
+    "QueryProperties": {
+      "RecordLocks": {
+        "Type": 2,
+        "Value": 2
+      },
+      "FailOnError": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1512,
+        "bottom": 794
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1496,
+        "bottom": 110
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 771,
+      "Tables": [
+        {
+          "Name": "Tbl_SelectedADHOCs",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

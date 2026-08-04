@@ -1,0 +1,2677 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoResize = NotDefault
+    RecordSelectors = NotDefault
+    ControlBox = NotDefault
+    NavigationButtons = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =26865
+    DatasheetFontHeight =11
+    ItemSuffix =1031
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x03929c2cb281e640
+    End
+    DatasheetFontName ="Calibri"
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin NavigationControl
+            BorderWidth =1
+            BorderLineStyle =0
+            ForeColor =4138256
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin NavigationButton
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            HoverThemeColorIndex =2
+            HoverTint =20.0
+            PressedThemeColorIndex =2
+            PressedTint =60.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            BackThemeColorIndex =1
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            TextFontCharSet =177
+            TextFontFamily =0
+            FontName ="Calibri"
+            FontWeight =400
+            FontSize =11
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin FormHeader
+            Height =550
+            Name ="FormHeader"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =300
+                    Top =60
+                    Width =7140
+                    Height =460
+                    FontSize =18
+                    Name ="Auto_Header0"
+                    Caption ="Main Navigation Menu"
+                    FontName ="Cambria"
+                    GroupTable =5
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =300
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7440
+                    LayoutCachedHeight =520
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =3
+                    ThemeFontIndex =0
+                    BorderThemeColorIndex =2
+                    BorderTint =100.0
+                    ForeThemeColorIndex =2
+                    ForeTint =100.0
+                    GroupTable =5
+                End
+                Begin EmptyCell
+                    Left =30
+                    Top =60
+                    Width =210
+                    Height =460
+                    Name ="EmptyCell737"
+                    GroupTable =5
+                    LayoutCachedLeft =30
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =240
+                    LayoutCachedHeight =520
+                    LayoutGroup =3
+                    GroupTable =5
+                End
+            End
+        End
+        Begin Section
+            Height =31680
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin NavigationControl
+                    TabStop = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =1875
+                    Top =180
+                    Width =24960
+                    Height =465
+                    TabIndex =1
+                    Name ="NavigationControl0"
+                    GroupTable =2
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    GridlineStyleBottom =1
+                    GridlineWidthBottom =4
+                    VerticalAnchor =1
+
+                    LayoutCachedLeft =1875
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =26835
+                    LayoutCachedHeight =645
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    NavigationSubform ="NavigationSubform"
+                    NavigationChild ="NavigationControl5"
+                    GridlineThemeColorIndex =4
+                    GridlineShade =100.0
+                    GroupTable =2
+                    Begin
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =1875
+                            Top =180
+                            Height =405
+                            Name ="NavigationButton13"
+                            Caption ="AdHoc Runner"
+                            ControlTipText ="AdHoc Selection Menu:\015\012Allows selection of quick run \015\012or custom sel"
+                                "ection Adhocs to be \015\012ran to update database"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =1875
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =3315
+                            LayoutCachedHeight =585
+                            LayoutGroup =1
+                            NavigationTargetType =32768
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =3345
+                            Top =180
+                            Height =405
+                            TabIndex =1
+                            Name ="NavigationButton22"
+                            Caption ="Exrep Reports"
+                            OnClick ="[Event Procedure]"
+                            ControlTipText ="Allows Selection of different \015\012exrep reports"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =3345
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =4785
+                            LayoutCachedHeight =585
+                            ColumnStart =1
+                            ColumnEnd =1
+                            LayoutGroup =1
+                            NavigationTargetType =32768
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Left =4815
+                            Top =180
+                            Height =405
+                            TabIndex =2
+                            Name ="NavigationButton967"
+                            Caption ="Refer W/Stock"
+                            ControlTipText ="This list shows parts ordered that are refer that  have shelf stock locally for "
+                                "issue."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =4815
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =6255
+                            LayoutCachedHeight =585
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            NavigationTargetName ="Refer W/Stock"
+                            NavigationTargetType =32768
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =6285
+                            Top =180
+                            Height =405
+                            TabIndex =3
+                            Name ="NavigationButton42"
+                            Caption ="500/600 Pri"
+                            ControlTipText ="Prioritized list by FGC, then work center. Priority \015\012based on Exrep, DIFM"
+                                ", Supply %. Also shows MAF counts by \015\012status for workload."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =6285
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =7725
+                            LayoutCachedHeight =585
+                            ColumnStart =3
+                            ColumnEnd =3
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =7755
+                            Top =180
+                            Height =405
+                            TabIndex =4
+                            Name ="NavigationButton658"
+                            Caption ="500/600 IW"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =7755
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =9195
+                            LayoutCachedHeight =585
+                            ColumnStart =4
+                            ColumnEnd =4
+                            LayoutGroup =1
+                            NavigationTargetName ="500_600_DIFM_IW"
+                            NavigationTargetType =32768
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =9225
+                            Top =180
+                            Height =405
+                            TabIndex =5
+                            Name ="NavigationButton77"
+                            Caption ="500/600 Other"
+                            ControlTipText ="Opens a menu showing MAFS with no DDSN.\015\012EG.. Type maf \"SD\", \"WR\"... o"
+                                "r Level 1\015\012Discrepancy MAF (SE MAF)."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =9225
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =10665
+                            LayoutCachedHeight =585
+                            ColumnStart =5
+                            ColumnEnd =5
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =10695
+                            Top =180
+                            Height =405
+                            TabIndex =6
+                            Name ="NavigationButton137"
+                            Caption ="SEPMS"
+                            OnClick ="[Event Procedure]"
+                            ControlTipText ="SEPMS: \015\012Opens a new menu that shows Support equipment PM MAFS, type \015\012"
+                                "MAF code \"PC\". These should be monitored to ensure no equipment\015\012downtim"
+                                "e."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =10695
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =12135
+                            LayoutCachedHeight =585
+                            ColumnStart =6
+                            ColumnEnd =6
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =12165
+                            Top =180
+                            Height =405
+                            TabIndex =7
+                            Name ="NavigationButton541"
+                            Caption ="Maf Rejects"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =12165
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =13605
+                            LayoutCachedHeight =585
+                            ColumnStart =7
+                            ColumnEnd =7
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =13635
+                            Top =180
+                            Height =405
+                            TabIndex =8
+                            Name ="NavigationButton113"
+                            Caption ="Buffer Status"
+                            ControlTipText ="Buffer Status:\015\012Allows for selection of either Buffer Yellow, or Red workl"
+                                "oad.\015\012NOTE: Buffer Status calculated differently than BMT , (Uses ACBAL in"
+                                "stead of FAQ also accounts \015\012fligh line spare availability. design buffer "
+                                "= (acbal + spares - pkup)"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =13635
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =15075
+                            LayoutCachedHeight =585
+                            ColumnStart =8
+                            ColumnEnd =8
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =15105
+                            Top =180
+                            Height =405
+                            TabIndex =9
+                            Name ="NavigationButton153"
+                            Caption ="PMI"
+                            ControlTipText ="PMI:\015\012Opens various reports that are tied to the buno/serno of aircraft th"
+                                "at are\015\012currently in PMI workcenter."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =15105
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =16545
+                            LayoutCachedHeight =585
+                            ColumnStart =9
+                            ColumnEnd =9
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =16575
+                            Top =180
+                            Height =405
+                            TabIndex =10
+                            Name ="NavigationButton193"
+                            Caption ="MOC"
+                            OnClick ="[Event Procedure]"
+                            ControlTipText ="MOC:\015\012Opens a new menu with various reports to assist with reasearch for t"
+                                "he \015\012different MOC calls (Growler, P8, H60)"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =16575
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =18015
+                            LayoutCachedHeight =585
+                            ColumnStart =10
+                            ColumnEnd =10
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =18045
+                            Top =180
+                            Height =405
+                            TabIndex =11
+                            Name ="NavigationButton363"
+                            Caption ="MMCO Daily"
+                            ControlTipText ="MMCO Daily:\015\012Has options to review BSR FGC count and BSR FGC count with no"
+                                " shelf stock"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =18045
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =19485
+                            LayoutCachedHeight =585
+                            ColumnStart =11
+                            ColumnEnd =11
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =19515
+                            Top =180
+                            Height =405
+                            TabIndex =12
+                            Name ="NavigationButton452"
+                            Caption ="Research"
+                            ControlTipText ="Research:\015\012Provides the different raw data reports to allow for in depth\015"
+                                "\012analysis and research."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =19515
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =20955
+                            LayoutCachedHeight =585
+                            ColumnStart =12
+                            ColumnEnd =12
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =20985
+                            Top =180
+                            Height =405
+                            TabIndex =13
+                            Name ="NavigationButton569"
+                            Caption ="Quick Search"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =20985
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =22425
+                            LayoutCachedHeight =585
+                            ColumnStart =13
+                            ColumnEnd =13
+                            LayoutGroup =1
+                            NavigationTargetName ="blankFrm"
+                            NavigationTargetType =32768
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =87
+                            Left =22455
+                            Top =180
+                            Height =405
+                            TabIndex =14
+                            Name ="NavigationButton413"
+                            Caption ="Cost Savings"
+                            ControlTipText ="Cost Savings:\015\012Opens the Cost savings options."
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =22455
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =23895
+                            LayoutCachedHeight =585
+                            ColumnStart =14
+                            ColumnEnd =14
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Left =23925
+                            Top =180
+                            Height =405
+                            TabIndex =15
+                            Name ="NavigationButton908"
+                            Caption ="Dog House"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =23925
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =25365
+                            LayoutCachedHeight =585
+                            ColumnStart =15
+                            ColumnEnd =15
+                            LayoutGroup =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Left =25395
+                            Top =180
+                            Height =405
+                            TabIndex =16
+                            Name ="NavigationButton1"
+                            Caption ="[Add New]"
+                            ControlTipText ="Add a form or report by dropping it here"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            BottomPadding =0
+
+                            LayoutCachedLeft =25395
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =26835
+                            LayoutCachedHeight =585
+                            ColumnStart =16
+                            ColumnEnd =16
+                            LayoutGroup =1
+                            DefaultInsertButton =1
+                            Shape =3
+                            HoverThemeColorIndex =4
+                            HoverTint =100.0
+                            PressedThemeColorIndex =4
+                            PressedTint =100.0
+                            HoverForeThemeColorIndex =1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =1
+                            PressedForeTint =100.0
+                            BackThemeColorIndex =4
+                            BackTint =40.0
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =1
+                            Overlaps =1
+                        End
+                    End
+                End
+                Begin NavigationControl
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Top =705
+                    Width =1875
+                    Height =10140
+                    TabIndex =2
+                    Name ="NavigationControl5"
+                    GroupTable =2
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    VerticalAnchor =1
+
+                    LayoutCachedTop =705
+                    LayoutCachedWidth =1875
+                    LayoutCachedHeight =10845
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =2
+                    NavigationParent ="NavigationControl0"
+                    Span =1
+                    GroupTable =2
+                    Begin
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =95
+                            Top =705
+                            Width =1815
+                            Name ="NavigationButton18"
+                            Caption ="Quick Run"
+                            ControlTipText ="Three Choices:\015\012Run Active\015\012Run Historical\015\012Run All AdHocs"
+                            GroupTable =6
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =4
+                            NavigationTargetName ="quick run"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton13"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =6
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            TabStop = NotDefault
+                            OverlapFlags =95
+                            Top =1095
+                            Width =1815
+                            TabIndex =1
+                            Name ="NavigationButton16"
+                            Caption ="Select AdHocs"
+                            ControlTipText ="Selected AdHocs:\015\012Allows selection of individual Adhocs\015\012for fine tu"
+                                "ned analysis and reasearch"
+                            GroupTable =6
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =4
+                            NavigationTargetName ="ConfigFrm_SelectADHOCs"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton13"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =6
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =95
+                            Top =1485
+                            Width =1815
+                            TabIndex =2
+                            Name ="NavigationButton904"
+                            Caption ="Table Date Times"
+                            GroupTable =6
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =4
+                            NavigationTargetName ="tblFileLastModified"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton13"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =6
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =7
+                            Name ="NavigationButton45"
+                            Caption ="Mafs && Notes"
+                            ControlTipText ="Work Load Priority list W/ Notes:\015\012The \"+\" reveals a drop down with all "
+                                "the MAFS in that \015\012FGC. The Maf drop down also has a \"+\" that shows the "
+                                "newest \015\012note only."
+                            GroupTable =10
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =5
+                            NavigationTargetName ="Priority_List_W/Mafs & Notes"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton42"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =10
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =8
+                            Name ="NavigationButton47"
+                            Caption ="Mafs && Parts"
+                            ControlTipText ="Work Load Priority list W/ Parts:\015\012The \"+\" reveals a drop down with all "
+                                "the MAFS in that \015\012FGC. The Maf drop down also has a \"+\" that shows part"
+                                "s\015\012that are on order and oustanding, does not show completed or cancelled\015"
+                                "\012parts."
+                            GroupTable =10
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =5
+                            NavigationTargetName ="Priority_List_W/Mafs & Parts"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton42"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =10
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1485
+                            Width =1815
+                            TabIndex =9
+                            Name ="NavigationButton49"
+                            Caption ="Mafs && Support"
+                            ControlTipText ="Work Load Priority list W/ Support:\015\012The \"+\" reveals a drop down with al"
+                                "l the MAFS in that \015\012FGC. The Maf drop down also has a \"+\" that shows op"
+                                "en support MAFS\015\012that are tied to the mom MAF."
+                            GroupTable =10
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =5
+                            NavigationTargetName ="Priority_List_W/Mafs & Support"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton42"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =10
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =95
+                            Top =1875
+                            Width =1815
+                            TabIndex =10
+                            Name ="NavigationButton672"
+                            Caption ="Open Report"
+                            OnClick ="[Event Procedure]"
+                            GroupTable =10
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1875
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2235
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =5
+                            NavigationParentButton ="NavigationButton42"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =10
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =11
+                            Name ="NavigationButton80"
+                            Caption ="Not Type D Maf"
+                            ControlTipText ="Not Type D Maf:\015\012This is a list of MAFS that do not have a DDSN but also\015"
+                                "\012are not support equipment MAFs. These should monitored as they are\015\012no"
+                                "t captured on BSR meetings."
+                            GroupTable =12
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =6
+                            NavigationTargetName ="500_600_other_mafs"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton77"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =12
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =12
+                            Name ="NavigationButton82"
+                            Caption ="AWP SE W/Parts"
+                            ControlTipText ="AWP SE W/PARTS: \015\012Lists Support Equipment MAFs in WP/WQ status that are po"
+                                "tential or current \"broad arrows.\" These should be monitored and researched to"
+                                " resolve. \"+\" shows parts\015\012Should be monitored and researched to avoid o"
+                                "r resolve broad arrow condition"
+                            GroupTable =12
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =6
+                            NavigationTargetName ="500_600_AWP_SE_Discrepancy_mafs"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton77"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =12
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1485
+                            Width =1815
+                            TabIndex =13
+                            Name ="NavigationButton84"
+                            Caption ="Non AWP SE"
+                            ControlTipText ="Non AWP SE:\015\012Research and resolve these non-AWP Support Equipment MAFs \015"
+                                "\012(potential broad arrows). Parts are either complete or pending order. The \""
+                                "+\"\015\012shows the most recent note available."
+                            GroupTable =12
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =6
+                            NavigationTargetName ="500_600_NON-AWP_SE_Discrepancy_mafs"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton77"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =12
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =14
+                            Name ="NavigationButton120"
+                            Caption ="Red"
+                            OnClick ="[Event Procedure]"
+                            ControlTipText ="Red:\015\012Opens New menu for Buffer Status Red workload by division."
+                            GroupTable =14
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =7
+                            NavigationParentButton ="NavigationButton113"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =14
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =15
+                            Name ="NavigationButton122"
+                            Caption ="Yellow"
+                            OnClick ="[Event Procedure]"
+                            ControlTipText ="Yellow:\015\012Opens New menu for Buffer Status Yellow workload by division."
+                            GroupTable =14
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =7
+                            NavigationParentButton ="NavigationButton113"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =14
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =16
+                            Name ="NavigationButton156"
+                            Caption ="DDSN List"
+                            ControlTipText ="Buno List:\015\012Add or remove aircraft Buno's from this list. This will filter"
+                                " mafs currently\015\012on the workload for that Buno."
+                            GroupTable =16
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =8
+                            NavigationTargetName ="pmi_ddsn_list"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton153"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =16
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =17
+                            Name ="NavigationButton158"
+                            Caption ="Mafs && Notes"
+                            ControlTipText ="Mafs & Notes:\015\012Shows MAFS tied to PMI aircraft Buno List. The \"+\" will o"
+                                "pen a drop\015\012down that shows the most current note."
+                            GroupTable =16
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =8
+                            NavigationTargetName ="pmi_mafs w/notes"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton153"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =16
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1485
+                            Width =1815
+                            TabIndex =18
+                            Name ="NavigationButton160"
+                            Caption ="Mafs && Parts"
+                            ControlTipText ="Mafs & Parts:\015\012Shows MAFS tied to PMI aircraft Buno List. The \"+\" will o"
+                                "pen a drop\015\012down that shows ordered and outstanding parts."
+                            GroupTable =16
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =8
+                            NavigationTargetName ="pmi_mafs w/parts"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton153"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =16
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1875
+                            Width =1815
+                            TabIndex =19
+                            Name ="NavigationButton162"
+                            Caption ="Mafs && Support"
+                            ControlTipText ="Mafs & Support:\015\012Shows MAFS tied to PMI aircraft Buno List. The \"+\" will"
+                                " open a drop\015\012down that shows support MAFS that are tied by control MCN to"
+                                " the \015\012mom MAF."
+                            GroupTable =16
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1875
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2235
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =8
+                            NavigationTargetName ="pmi_mafs w/support"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton153"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =16
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =95
+                            Top =2265
+                            Width =1815
+                            TabIndex =20
+                            Name ="NavigationButton620"
+                            Caption ="DDSN Search"
+                            GroupTable =16
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =2265
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2625
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =8
+                            NavigationTargetName ="DdsnQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton153"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =16
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =95
+                            Top =2655
+                            Width =1815
+                            Height =405
+                            TabIndex =52
+                            Name ="NavigationButton8"
+                            Caption ="[Add New]"
+                            ControlTipText ="Add a form or report by dropping it here"
+                            GroupTable =16
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =2655
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =3060
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =8
+                            DefaultInsertButton =1
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =16
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =21
+                            Name ="NavigationButton366"
+                            Caption ="Run AdHocs"
+                            ControlTipText ="Run Adhocs:\015\012Gives option to run required AdHocs to update report."
+                            GroupTable =18
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =9
+                            NavigationTargetName ="MmcoDailyFrm"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton363"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =18
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =22
+                            Name ="NavigationButton368"
+                            Caption ="AK0/AK7 BSR"
+                            ControlTipText ="View Sheet:\015\012Opens teh \"AK0/AK7\" BSR data. The Count is available on the"
+                                " bottom row.\015\012When unfiltered it equals the number of unique FGCs, and whe"
+                                "n filtered on the RFI \015\012column for zero RFI, it gives the count for FGC wi"
+                                "th zero stock."
+                            GroupTable =18
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =9
+                            NavigationTargetName ="AK0_AK7_BSR_Frm"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton363"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =18
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1485
+                            Width =1815
+                            TabIndex =23
+                            Name ="NavigationButton781"
+                            Caption ="ALL BSR W/ DDSN"
+                            GroupTable =18
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =9
+                            NavigationTargetName ="BSR W/ DDSN"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton363"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =18
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =24
+                            Name ="NavigationButton416"
+                            Caption ="Raw Data"
+                            ControlTipText ="Raw Data:\015\012This is the raw data that caclulates the cost savings by MCN. I"
+                                "t takes the lower of the Net/UP and determines based on order \015\012parts what"
+                                " the net cost savings was for each MCN"
+                            GroupTable =23
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =10
+                            NavigationTargetName ="cost_savings"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton413"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =23
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            Visible = NotDefault
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =25
+                            Name ="NavigationButton418"
+                            Caption ="Open Charts"
+                            OnClick ="[Event Procedure]"
+                            ControlTipText ="Open Charts:\015\012This button exports the data and opens a worksheet \015\012t"
+                                "hat transforms the data and generates cost savings charts."
+                            GroupTable =23
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =10
+                            NavigationParentButton ="NavigationButton413"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =23
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                            Overlaps =1
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =26
+                            Name ="NavigationButton457"
+                            Caption ="Mafs && Notes"
+                            ControlTipText ="Mafs & Notes:\015\012Displays buffer status red MAFS: the \"+\" opens a drop dow"
+                                "n\015\012that shows all notes."
+                            GroupTable =27
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =11
+                            NavigationTargetName ="Raw Data W/NOTES"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton452"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =27
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =27
+                            Name ="NavigationButton459"
+                            Caption ="Mafs && Parts"
+                            ControlTipText ="Mafs & Parts:\015\012Displays buffer status red MAFS: the \"+\" opens a drop dow"
+                                "n\015\012that shows all parts ordered."
+                            GroupTable =27
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =11
+                            NavigationTargetName ="Raw Data W/PARTS"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton452"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =27
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1485
+                            Width =1815
+                            TabIndex =28
+                            Name ="NavigationButton461"
+                            Caption ="Mafs && Support"
+                            ControlTipText ="Mafs & Support:\015\012Displays buffer status red MAFS: the \"+\" opens a drop d"
+                                "own\015\012that shows support MAFS tied to the mom MAF by control MCN."
+                            GroupTable =27
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =11
+                            NavigationTargetName ="Raw Data W/SUPPORT"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton452"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =27
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1875
+                            Width =1815
+                            TabIndex =29
+                            Name ="NavigationButton463"
+                            Caption ="Requisitions"
+                            ControlTipText ="Requisitions:\015\012Shows all supply requistions including historical. Addition"
+                                "ally if available\015\012list the FGC for the equipment it was ordered against."
+                            GroupTable =27
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1875
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2235
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =11
+                            NavigationTargetName ="Requisitions_Raw_Data"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton452"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =27
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =30
+                            Name ="NavigationButton546"
+                            Caption ="Mafs && Notes"
+                            GroupTable =30
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =12
+                            NavigationTargetName ="DIFM_RejectFrm"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton541"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =30
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =31
+                            Name ="NavigationButton572"
+                            Caption ="FGC"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =13
+                            NavigationTargetName ="FgcQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =32
+                            Name ="NavigationButton574"
+                            Caption ="TEC"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =13
+                            NavigationTargetName ="TecQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1485
+                            Width =1815
+                            TabIndex =33
+                            Name ="NavigationButton592"
+                            Caption ="NIIN"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =13
+                            NavigationTargetName ="NiinQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1875
+                            Width =1815
+                            TabIndex =34
+                            Name ="NavigationButton580"
+                            Caption ="DDSN"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1875
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2235
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =13
+                            NavigationTargetName ="DdsnQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =2265
+                            Width =1815
+                            TabIndex =35
+                            Name ="NavigationButton588"
+                            Caption ="MCN"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =2265
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2625
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =13
+                            NavigationTargetName ="McnQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =2655
+                            Width =1815
+                            TabIndex =36
+                            Name ="NavigationButton590"
+                            Caption ="Management Code"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =2655
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =3015
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =13
+                            NavigationTargetName ="MgmtcdQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =95
+                            Top =3045
+                            Width =1815
+                            TabIndex =37
+                            Name ="NavigationButton576"
+                            Caption ="Buno/Serno"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =3045
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =3405
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =13
+                            NavigationTargetName ="BunoSernoQsrchfrm"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Top =3435
+                            Width =1815
+                            TabIndex =38
+                            Name ="NavigationButton584"
+                            Caption ="E-Serno"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =3435
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =3795
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =13
+                            NavigationTargetName ="EsernoQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Top =3825
+                            Width =1815
+                            TabIndex =39
+                            Name ="NavigationButton582"
+                            Caption ="E-Part No"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =3825
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =4185
+                            RowStart =8
+                            RowEnd =8
+                            LayoutGroup =13
+                            NavigationTargetName ="EpartnoQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Top =4215
+                            Width =1815
+                            TabIndex =40
+                            Name ="NavigationButton596"
+                            Caption ="SE Part No"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =4215
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =4575
+                            RowStart =9
+                            RowEnd =9
+                            LayoutGroup =13
+                            NavigationTargetName ="SepartnoQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Top =4605
+                            Width =1815
+                            TabIndex =41
+                            Name ="NavigationButton578"
+                            Caption ="Status Date >="
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =4605
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =4965
+                            RowStart =10
+                            RowEnd =10
+                            LayoutGroup =13
+                            NavigationTargetName ="CurStatusDateQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Top =4995
+                            Width =1815
+                            TabIndex =42
+                            Name ="NavigationButton586"
+                            Caption ="Initiated Date >="
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =4995
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =5355
+                            RowStart =11
+                            RowEnd =11
+                            LayoutGroup =13
+                            NavigationTargetName ="InitiatedQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =87
+                            Top =5385
+                            Width =1815
+                            TabIndex =43
+                            Name ="NavigationButton594"
+                            Caption ="Project Code"
+                            GroupTable =32
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =5385
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =5745
+                            RowStart =12
+                            RowEnd =12
+                            LayoutGroup =13
+                            NavigationTargetName ="ProjcdQsrch"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton569"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =32
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =44
+                            Name ="NavigationButton696"
+                            Caption ="Open Report"
+                            OnClick ="[Event Procedure]"
+                            GroupTable =36
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =14
+                            NavigationParentButton ="NavigationButton658"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =36
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =705
+                            Width =1815
+                            TabIndex =45
+                            Name ="NavigationButton913"
+                            Caption ="400"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1065
+                            LayoutGroup =15
+                            NavigationTargetName ="400_DogHouse"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =223
+                            Top =1095
+                            Width =1815
+                            TabIndex =46
+                            Name ="NavigationButton915"
+                            Caption ="500"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1095
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1455
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =15
+                            NavigationTargetName ="500_DogHouse"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =215
+                            Top =1485
+                            Width =1815
+                            TabIndex =47
+                            Name ="NavigationButton917"
+                            Caption ="600"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1485
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =1845
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =15
+                            NavigationTargetName ="600_DogHouse"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =215
+                            Top =1875
+                            Width =1815
+                            TabIndex =48
+                            Name ="NavigationButton919"
+                            Caption ="700"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =1875
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2235
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =15
+                            NavigationTargetName ="700_DogHouse"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =215
+                            Top =2265
+                            Width =1815
+                            TabIndex =49
+                            Name ="NavigationButton921"
+                            Caption ="800"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =2265
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =2625
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =15
+                            NavigationTargetName ="800_DogHouse"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =215
+                            Top =2655
+                            Width =1815
+                            TabIndex =50
+                            Name ="NavigationButton923"
+                            Caption ="900"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =2655
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =3015
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =15
+                            NavigationTargetName ="900_DogHouse"
+                            NavigationTargetType =32768
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                        Begin NavigationButton
+                            OverlapFlags =215
+                            Top =3045
+                            Width =1815
+                            TabIndex =51
+                            Name ="NavigationButton925"
+                            Caption ="Print Report"
+                            OnClick ="[Event Procedure]"
+                            GroupTable =38
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+
+                            LayoutCachedTop =3045
+                            LayoutCachedWidth =1815
+                            LayoutCachedHeight =3405
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =15
+                            NavigationParentButton ="NavigationButton908"
+                            HoverThemeColorIndex =4
+                            HoverTint =40.0
+                            PressedThemeColorIndex =4
+                            PressedTint =40.0
+                            BackThemeColorIndex =4
+                            BorderThemeColorIndex =4
+                            BorderShade =100.0
+                            GroupTable =38
+                            TextFontCharSet =0
+                            TextFontFamily =34
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    Left =1875
+                    Top =705
+                    Width =24960
+                    Height =10140
+                    TabIndex =3
+                    Name ="NavigationSubform"
+                    GroupTable =2
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    VerticalAnchor =1
+
+                    LayoutCachedLeft =1875
+                    LayoutCachedTop =705
+                    LayoutCachedWidth =26835
+                    LayoutCachedHeight =10845
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Top =180
+                    Width =1875
+                    Height =465
+                    Name ="marker"
+                    Caption ="."
+                    GroupTable =2
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    VerticalAnchor =1
+                    BackStyle =0
+
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =1875
+                    LayoutCachedHeight =645
+                    LayoutGroup =2
+                    Gradient =0
+                    OldBorderStyle =0
+                    HoverColor =-2
+                    HoverThemeColorIndex =-1
+                    PressedColor =-2
+                    PressedThemeColorIndex =-1
+                    GroupTable =2
+                    Overlaps =1
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="FormFooter"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End
+CodeBehindForm
+' See "Navigation Form.cls"

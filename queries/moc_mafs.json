@@ -1,0 +1,45 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "moc_mafs"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "combined.proj_cd": {
+        "ColumnWidth": 4050,
+        "AggregateType": -1
+      },
+      "combined.sys_rsn": {
+        "ColumnWidth": 3870,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1449,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1433,
+        "bottom": 203
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

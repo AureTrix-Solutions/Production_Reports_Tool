@@ -1,0 +1,105 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Other_Exrep"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "SubdatasheetName": {
+        "Type": 10,
+        "Value": "Table.Maf_Notes"
+      },
+      "LinkChildFields": {
+        "Type": 10,
+        "Value": "mcn"
+      },
+      "LinkMasterFields": {
+        "Type": 10,
+        "Value": "mcn"
+      },
+      "SubdatasheetHeight": {
+        "Type": 3,
+        "Value": 0
+      },
+      "SubdatasheetExpanded": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "Columns": {
+      "combined.act_take_cd": {
+        "ColumnWidth": 1515,
+        "AggregateType": -1
+      },
+      "combined.buno_serno": {
+        "ColumnWidth": 1530,
+        "AggregateType": -1
+      },
+      "combined.current_status": {
+        "ColumnWidth": 1755,
+        "AggregateType": -1
+      },
+      "combined.e_part_no": {
+        "ColumnWidth": 1785,
+        "AggregateType": -1
+      },
+      "combined.e_serno": {
+        "ColumnWidth": 1170,
+        "AggregateType": -1
+      },
+      "combined.fgc": {
+        "ColumnWidth": 795,
+        "AggregateType": -1
+      },
+      "combined.jcn": {
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "combined.mcn": {
+        "ColumnWidth": 1110,
+        "AggregateType": -1
+      },
+      "combined.net_price": {
+        "ColumnWidth": 1350,
+        "AggregateType": -1
+      },
+      "combined.niin": {
+        "ColumnWidth": 1170,
+        "AggregateType": -1
+      },
+      "combined.sys_rsn": {
+        "ColumnWidth": 2460,
+        "AggregateType": -1
+      },
+      "combined.wc_cd": {
+        "ColumnWidth": 990,
+        "AggregateType": -1
+      },
+      "org_cd": {
+        "ColumnWidth": 1035,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 987,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1433,
+        "bottom": 114
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "cost_savings"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "frc_repair_cost": {
+        "AggregateType": 0,
+        "ColumnWidth": 2325
+      },
+      "net_cost": {
+        "AggregateType": 0,
+        "ColumnWidth": 2670
+      },
+      "net_cost_savings": {
+        "AggregateType": 0,
+        "ColumnWidth": 1995
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1548,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1532,
+        "bottom": -1
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+﻿SELECT
+  moc_mafs.fgc,
+  moc_mafs.tec,
+  moc_mafs.niin,
+  moc_mafs.hof_niin,
+  moc_mafs.wc_cd,
+  moc_mafs.mcn,
+  moc_mafs.cur_ti_ddsn,
+  moc_mafs.org_cd,
+  Main_org_list.org_name,
+  moc_mafs.cur_mgmt_cd,
+  moc_mafs.jcn,
+  moc_mafs.e_part_no,
+  moc_mafs.e_serno,
+  moc_mafs.se_part_no,
+  moc_mafs.buno_serno,
+  moc_mafs.sys_rsn,
+  moc_mafs.unit_price,
+  moc_mafs.net_price,
+  moc_mafs.act_take_cd,
+  moc_mafs.maint_trans_cd,
+  moc_mafs.initiated_date,
+  moc_mafs.current_status,
+  moc_mafs.current_status_date,
+  moc_mafs.Maf_age,
+  moc_mafs.ty_maf_cd,
+  moc_mafs.maint_lv_cd,
+  moc_mafs.wrk_pri_cd,
+  moc_mafs.proj_cd
+FROM
+  (
+    moc_mafs
+    LEFT JOIN Main_org_list ON moc_mafs.org_cd = Main_org_list.org_code
+  )
+  INNER JOIN [ea-18g ddsn list] ON moc_mafs.cur_ti_ddsn = [ea-18g ddsn list].ddsn;

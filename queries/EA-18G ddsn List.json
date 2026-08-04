@@ -1,0 +1,30 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "EA-18G ddsn List"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 3,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1662,
+        "bottom": 794
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1646,
+        "bottom": 271
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

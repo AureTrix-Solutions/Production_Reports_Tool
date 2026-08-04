@@ -1,0 +1,757 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    FilterOn = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =21345
+    DatasheetFontHeight =11
+    ItemSuffix =33
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    Filter ="([AK0_AK7_BSR].[rfi]=0)"
+    RecSrcDt = Begin
+        0x0eb85f3cd681e640
+    End
+    RecordSource ="AK0_AK7_BSR"
+    DatasheetFontName ="Calibri"
+    AllowFormView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    TotalsRow =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =13320
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =93
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =360
+                    Width =9825
+                    Height =359
+                    ColumnWidth =780
+                    ColumnOrder =0
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="fgc"
+                    ControlSource ="fgc"
+                    Format ="@"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =719
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =360
+                            Top =360
+                            Width =1528
+                            Height =359
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label0"
+                            Caption ="fgc"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =360
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =719
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =93
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =900
+                    Width =9825
+                    Height =360
+                    ColumnWidth =1785
+                    ColumnOrder =3
+                    TabIndex =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="AK0_AK7_difm"
+                    ControlSource ="AK0_AK7_difm"
+                    GroupTable =1
+                    BottomPadding =150
+                    AggregateType =0
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =1260
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =360
+                            Top =900
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label3"
+                            Caption ="AK0_AK7_difm"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =900
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =1260
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =1440
+                    Width =9825
+                    Height =360
+                    ColumnWidth =1050
+                    ColumnOrder =4
+                    TabIndex =2
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="exreps"
+                    ControlSource ="exreps"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =1440
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =1800
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =1440
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label6"
+                            Caption ="exreps"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =1440
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =1800
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =1980
+                    Width =9825
+                    Height =360
+                    ColumnWidth =945
+                    ColumnOrder =5
+                    TabIndex =3
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="owed"
+                    ControlSource ="owed"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =1980
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =2340
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =1980
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label9"
+                            Caption ="owed"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =1980
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =2340
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =2520
+                    Width =9825
+                    Height =360
+                    ColumnWidth =630
+                    ColumnOrder =6
+                    TabIndex =4
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="rfi"
+                    ControlSource ="rfi"
+                    GroupTable =1
+                    BottomPadding =150
+                    AggregateType =2
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =2520
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =2880
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =2520
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label12"
+                            Caption ="rfi"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =2520
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =2880
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =3060
+                    Width =9825
+                    Height =360
+                    ColumnWidth =1725
+                    ColumnOrder =7
+                    TabIndex =5
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="buffer_design"
+                    ControlSource ="buffer_design"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =3060
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =3420
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =3060
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label15"
+                            Caption ="buffer_design"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =3060
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =3420
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =3600
+                    Width =9825
+                    Height =360
+                    ColumnWidth =1125
+                    ColumnOrder =8
+                    TabIndex =6
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="faq_qty"
+                    ControlSource ="faq_qty"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =3600
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =3960
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =3600
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label18"
+                            Caption ="faq_qty"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =3600
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =3960
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =4140
+                    Width =9825
+                    Height =360
+                    ColumnWidth =1305
+                    ColumnOrder =9
+                    TabIndex =7
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="acbal_qty"
+                    ControlSource ="acbal_qty"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =4140
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =4500
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =4140
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label21"
+                            Caption ="acbal_qty"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =4140
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =4500
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =4680
+                    Width =9825
+                    Height =360
+                    ColumnWidth =1065
+                    ColumnOrder =10
+                    TabIndex =8
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="due_in"
+                    ControlSource ="due_in"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =4680
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =5040
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =4680
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label24"
+                            Caption ="due_in"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =4680
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =5040
+                            RowStart =8
+                            RowEnd =8
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1950
+                    Top =5220
+                    Width =9825
+                    Height =360
+                    ColumnWidth =885
+                    ColumnOrder =11
+                    TabIndex =9
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="pkup"
+                    ControlSource ="pkup"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1950
+                    LayoutCachedTop =5220
+                    LayoutCachedWidth =11775
+                    LayoutCachedHeight =5580
+                    RowStart =9
+                    RowEnd =9
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =5220
+                            Width =1528
+                            Height =360
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="Label27"
+                            Caption ="pkup"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =5220
+                            LayoutCachedWidth =1888
+                            LayoutCachedHeight =5580
+                            RowStart =9
+                            RowEnd =9
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    Left =2100
+                    Top =600
+                    Height =315
+                    ColumnOrder =2
+                    TabIndex =10
+                    Name ="tec_code"
+                    ControlSource ="tec_code"
+
+                    LayoutCachedLeft =2100
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =3540
+                    LayoutCachedHeight =915
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            Left =300
+                            Top =600
+                            Width =915
+                            Height =315
+                            Name ="Label30"
+                            Caption ="tec_code"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =600
+                            LayoutCachedWidth =1215
+                            LayoutCachedHeight =915
+                        End
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =215
+                    Left =9000
+                    Top =6780
+                    Width =12345
+                    Height =6540
+                    TabIndex =11
+                    Name ="DIFM_trimmed_notes"
+                    SourceObject ="Form.DIFM_trimmed_notes"
+                    LinkChildFields ="fgc"
+                    LinkMasterFields ="fgc"
+
+                    LayoutCachedLeft =9000
+                    LayoutCachedTop =6780
+                    LayoutCachedWidth =21345
+                    LayoutCachedHeight =13320
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =9000
+                            Top =6540
+                            Width =2160
+                            Height =315
+                            Name ="Label31"
+                            Caption ="DIFM_trimmed_notes:"
+                            LayoutCachedLeft =9000
+                            LayoutCachedTop =6540
+                            LayoutCachedWidth =11160
+                            LayoutCachedHeight =6855
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =2100
+                    Top =600
+                    Height =315
+                    ColumnOrder =1
+                    TabIndex =12
+                    Name ="hof"
+                    ControlSource ="hof"
+
+                    LayoutCachedLeft =2100
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =3540
+                    LayoutCachedHeight =915
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =300
+                            Top =600
+                            Width =390
+                            Height =315
+                            Name ="Label32"
+                            Caption ="hof"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =600
+                            LayoutCachedWidth =690
+                            LayoutCachedHeight =915
+                        End
+                    End
+                End
+            End
+        End
+    End
+End

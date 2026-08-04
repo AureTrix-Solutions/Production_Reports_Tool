@@ -1,0 +1,5 @@
+﻿CREATE TABLE [tblFileLastModified] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [FileName] VARCHAR (255),
+  [LastModified] DATETIME
+)

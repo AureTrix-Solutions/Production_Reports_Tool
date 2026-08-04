@@ -1,0 +1,48 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "combined Query1"
+  },
+  "Items": {
+    "QueryType": 48,
+    "QueryProperties": {
+      "RecordLocks": {
+        "Type": 2,
+        "Value": 2
+      },
+      "FailOnError": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1492,
+        "bottom": 794
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1476,
+        "bottom": 547
+      },
+      "GridLeft": 288,
+      "GridTop": 0,
+      "ColumnsShown": 579,
+      "Tables": [
+        {
+          "Name": "combined",
+          "Alias": "",
+          "Left": 48,
+          "Top": -276,
+          "Right": 192,
+          "Bottom": -132,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

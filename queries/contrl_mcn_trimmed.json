@@ -1,0 +1,29 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "contrl_mcn_trimmed"
+  },
+  "Items": {
+    "QueryType": 0,
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 61,
+        "right": 0,
+        "bottom": 61
+      },
+      "DesignerPane": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

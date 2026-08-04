@@ -1,0 +1,313 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8884
+    DatasheetFontHeight =11
+    ItemSuffix =22
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0x552b3aac2d8ce640
+    End
+    RecordSource ="500_600_Pri_Report"
+    Caption ="Priority_List_Report"
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Section
+            Height =7560
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    ColumnWidth =750
+                    Name ="fgc"
+                    ControlSource ="fgc"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =1200
+                    TabIndex =1
+                    Name ="hof_niin"
+                    ControlSource ="hof_niin"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =990
+                    TabIndex =2
+                    Name ="wc_cd"
+                    ControlSource ="wc_cd"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =750
+                    TabIndex =3
+                    Name ="tec"
+                    ControlSource ="tec"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =855
+                    TabIndex =4
+                    Name ="difm"
+                    ControlSource ="difm"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =960
+                    TabIndex =5
+                    Name ="exrep"
+                    ControlSource ="exrep"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =1035
+                    TabIndex =6
+                    Name ="supply"
+                    ControlSource ="supply"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =1005
+                    TabIndex =7
+                    Name ="buffer"
+                    ControlSource ="buffer"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =645
+                    TabIndex =8
+                    Name ="CT"
+                    ControlSource ="CT"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =675
+                    TabIndex =9
+                    Name ="IW"
+                    ControlSource ="IW"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =705
+                    TabIndex =10
+                    Name ="M1"
+                    ControlSource ="M1"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =705
+                    TabIndex =11
+                    Name ="M3"
+                    ControlSource ="M3"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =705
+                    TabIndex =12
+                    Name ="M5"
+                    ControlSource ="M5"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =705
+                    TabIndex =13
+                    Name ="M6"
+                    ControlSource ="M6"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =705
+                    TabIndex =14
+                    Name ="M8"
+                    ControlSource ="M8"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =705
+                    TabIndex =15
+                    Name ="M9"
+                    ControlSource ="M9"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =735
+                    TabIndex =16
+                    Name ="WB"
+                    ControlSource ="WB"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =735
+                    TabIndex =17
+                    Name ="WP"
+                    ControlSource ="WP"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =765
+                    TabIndex =18
+                    Name ="WQ"
+                    ControlSource ="WQ"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    IMESentenceMode =3
+                    ColumnWidth =720
+                    TabIndex =19
+                    Name ="WS"
+                    ControlSource ="WS"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    ColumnWidth =720
+                    TabIndex =20
+                    Name ="WT"
+                    ControlSource ="WT"
+
+                    LayoutCachedWidth =1440
+                    LayoutCachedHeight =240
+                End
+                Begin Subform
+                    OverlapFlags =85
+                    Left =100
+                    Top =1000
+                    TabIndex =21
+                    Name ="MySubform"
+
+                    LayoutCachedLeft =100
+                    LayoutCachedTop =1000
+                    LayoutCachedWidth =1540
+                    LayoutCachedHeight =2440
+                End
+            End
+        End
+    End
+End

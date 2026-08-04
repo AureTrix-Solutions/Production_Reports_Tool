@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "combinedCopy Of Requisitions_Raw_Data",
+    "Attributes": 2,
+    "Table": "combined",
+    "ForeignTable": "Copy Of Requisitions_Raw_Data",
+    "Fields": [
+      {
+        "Name": "mcn",
+        "ForeignName": "mcn"
+      }
+    ]
+  }
+}

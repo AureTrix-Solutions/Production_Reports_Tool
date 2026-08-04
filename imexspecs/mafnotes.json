@@ -1,0 +1,62 @@
+﻿{
+  "Info": {
+    "Class": "clsDbImexSpec",
+    "Description": "Import/Export Specification from MSysIMEXSpecs"
+  },
+  "Items": {
+    "DateDelim": "/",
+    "DateFourDigitYear": true,
+    "DateLeadingZeros": false,
+    "DateOrder": 2,
+    "DecimalPoint": ".",
+    "FieldSeparator": ",",
+    "FileType": 437,
+    "SpecName": "mafnotes",
+    "SpecType": 1,
+    "StartRow": 1,
+    "TextDelim": "\"",
+    "TimeDelim": ":",
+    "Columns": {
+      "maf_note": {
+        "Attributes": 0,
+        "DataType": 12,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 25,
+        "Width": 32000
+      },
+      "mcn": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 1,
+        "Width": 8
+      },
+      "note_dttm_text": {
+        "Attributes": 0,
+        "DataType": 10,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 115,
+        "Width": 24
+      },
+      "orignr": {
+        "Attributes": 0,
+        "DataType": 12,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 139,
+        "Width": 32000
+      },
+      "subj": {
+        "Attributes": 0,
+        "DataType": 12,
+        "IndexType": 0,
+        "SkipColumn": false,
+        "Start": 9,
+        "Width": 32000
+      }
+    }
+  }
+}

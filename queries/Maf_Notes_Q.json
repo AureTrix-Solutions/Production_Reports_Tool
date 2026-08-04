@@ -1,0 +1,39 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "Maf_Notes_Q"
+  },
+  "Items": {
+    "QueryType": 0,
+    "Columns": {
+      "mcn": {
+        "ColumnWidth": 1170,
+        "AggregateType": -1
+      },
+      "subj": {
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 1481,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1465,
+        "bottom": 254
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    }
+  }
+}

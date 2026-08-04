@@ -1,0 +1,32 @@
+﻿SELECT
+  combined.fgc AS mom_fgc,
+  combined.tec AS mom_tec,
+  combined.e_serno AS mom_serno,
+  [Copy Of Requisitions_Raw_Data].mcn AS mom_mcn,
+  combined.current_status AS mom_maf_status,
+  [Copy Of Requisitions_Raw_Data].cage,
+  [Copy Of Requisitions_Raw_Data].cog,
+  [Copy Of Requisitions_Raw_Data].cur_mcn,
+  [Copy Of Requisitions_Raw_Data].cur_niin,
+  [copy of Requisitions_Raw_Data].hof_niin,
+  [Copy Of Requisitions_Raw_Data].ddsn,
+  [Copy Of Requisitions_Raw_Data].ddsn_suf,
+  [Copy Of Requisitions_Raw_Data].lsc,
+  [Copy Of Requisitions_Raw_Data].ord_qty,
+  [Copy Of Requisitions_Raw_Data].part_no,
+  [Copy Of Requisitions_Raw_Data].rep_mcn,
+  [Copy Of Requisitions_Raw_Data].wc_cd,
+  [Copy Of Requisitions_Raw_Data].nomen,
+  [Copy Of Requisitions_Raw_Data].ui,
+  [Copy Of Requisitions_Raw_Data].fgc,
+  [Copy Of Requisitions_Raw_Data].rep_itm_ind,
+  [Copy Of Requisitions_Raw_Data].buno_serno,
+  [Copy Of Requisitions_Raw_Data].cur_ti_ddsn,
+  [Copy Of Requisitions_Raw_Data].jcn,
+  [Copy Of Requisitions_Raw_Data].unit_price,
+  [Copy Of Requisitions_Raw_Data].net_price,
+  [Copy Of Requisitions_Raw_Data].ord_dttm,
+  [Copy Of Requisitions_Raw_Data].lsc_dttm
+FROM
+  combined
+  RIGHT JOIN [Copy Of Requisitions_Raw_Data] ON combined.mcn = [Copy Of Requisitions_Raw_Data].mcn;

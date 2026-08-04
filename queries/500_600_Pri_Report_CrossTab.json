@@ -1,0 +1,111 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "500_600_Pri_Report_CrossTab"
+  },
+  "Items": {
+    "QueryType": 16,
+    "Columns": {
+      "[500_600_BS].fgc": {
+        "ColumnWidth": 780,
+        "AggregateType": -1
+      },
+      "[500_600_BS].wc_cd": {
+        "ColumnWidth": 990,
+        "AggregateType": -1
+      },
+      "buffer": {
+        "ColumnWidth": 1005,
+        "AggregateType": -1
+      },
+      "buffer_status_": {
+        "ColumnWidth": 1770,
+        "AggregateType": -1
+      },
+      "CT": {
+        "ColumnWidth": 645,
+        "AggregateType": -1
+      },
+      "difm": {
+        "ColumnWidth": 855,
+        "AggregateType": -1
+      },
+      "exrep": {
+        "ColumnWidth": 960,
+        "AggregateType": -1
+      },
+      "IW": {
+        "ColumnWidth": 675,
+        "AggregateType": -1
+      },
+      "M1": {
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "M3": {
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "M5": {
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "M6": {
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "M8": {
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "MaxOfsupply_percent": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "supply": {
+        "ColumnWidth": 1035,
+        "AggregateType": -1
+      },
+      "supply_percnt": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      },
+      "tec": {
+        "ColumnWidth": 750,
+        "AggregateType": -1
+      },
+      "WP": {
+        "ColumnWidth": 735,
+        "AggregateType": -1
+      },
+      "WQ": {
+        "ColumnWidth": 765,
+        "AggregateType": -1
+      },
+      "WT": {
+        "ColumnWidth": 720,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 0,
+        "right": 987,
+        "bottom": 894
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1433,
+        "bottom": 33
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2607,
+      "Tables": [
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿CREATE TABLE [Buno_list] (
+  [Buno_serno] VARCHAR (255) CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL
+)
