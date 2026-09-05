@@ -147,21 +147,3 @@ When editing exported Access objects:
 5. Re-export from Access when appropriate so the repository remains synchronized.
 
 See `AGENTS.md` before making changes for the complete safety rules.
-
-## Replit status
-
-No run workflow is configured because this repository is an Access source
-export rather than a Replit-runnable application. The imported project has
-otherwise been left unchanged.
-
-## Documentation opportunities
-
-Useful operational documentation can be added as the original database
-environment is reviewed, including:
-
-- required linked databases, network paths, or external data sources;
-- setup and first-run instructions inside Microsoft Access;
-- ownership and intended audience for each report family;
-- expected AdHoc inputs, schedules, and row-count checks;
-- definitions for domain abbreviations and business rules;
-- release, import, export, and validation procedures.
